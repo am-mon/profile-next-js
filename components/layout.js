@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import { BsLinkedin } from "react-icons/bs";
+import { BiLogoGmail } from "react-icons/bi";
 
 const name = "Aye M. Mon";
 export const siteTitle = "Portfolio";
@@ -30,6 +32,21 @@ export default function Layout({ children, home }) {
               />
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
               <h2 className={utilStyles.headingLg}>Front-End Web Developer</h2>
+              <ul className="text-2xl flex flex-row space-x-7 justify-center text-center mt-7">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ayemyatmon/"
+                    target="_blank"
+                  >
+                    <BsLinkedin />
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:ayemyatmon.yn@gmail.com" target="_blank">
+                    <BiLogoGmail />
+                  </a>
+                </li>
+              </ul>
             </div>
           </>
         ) : (

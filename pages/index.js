@@ -17,6 +17,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section>
+        {/* <Introduction /> */}
         <Work_experience />
         <Skills />
         <Projects />
