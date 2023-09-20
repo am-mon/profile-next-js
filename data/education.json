@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "title": "University Of Foreign Languages, Mandalay",
+      "degree": "Bachelor of Arts (Japanese) - Full Time",
+      "duration": "Oct 2009 - Sep 2012",
+      "url": "https://www.mufl.edu.mm/"
+    },
+    {
+      "id": 2,
+      "title": "Tokyo University Of Social Welfare",
+      "degree": "Japanese - Part Time",
+      "duration": "Oct 2013 - Mar 2015",
+      "url": "https://www.tokyo-fukushi.ac.jp/english/japaneselanguage.html"
+    },
+    {
+      "id": 3,
+      "title": "Tokyo Design Technology Center College",
+      "degree": "Diploma in IT & Design (Web) - Full Time",
+      "duration": "Apr 2015 - Mar 2018",
+      "url": "https://www.tech.ac.jp/"
+    }
+  ]
+}

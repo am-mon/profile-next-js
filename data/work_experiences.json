@@ -1,0 +1,34 @@
+{
+  "work_experiences": [
+    {
+      "id": 1,
+      "title": "Corekara Inc. (Japan)",
+      "position": "Front-End Engineer",
+      "duration": "Aug 2016 – Mar 2018 (Intern) / Apr 2018 – Sep 2019 (Full Time)",
+      "responsibility": [
+        "Based on client requirements, created websites by using HTML5, CSS3, jQuery, JavaScript, PHP for WordPress and Smarty for online shopping websites.",
+        "Created and maintained ecommerce websites by using various Content Management System (CMS) which are ColorMeShop, MakeShop and Future Shop.",
+        "Customizing blogs and contents for shopping websites by using WordPress to lead for media ecommerce.",
+        "Created the responsive website by using CSS media queries.",
+        "Understanding cross-browser compatibility and SEO principles in developing websites.",
+        "Collaborated with team members for every single projects which are focused on Front End features and UI/ UX.",
+        "Liaised with the business team across the entire project as an active member."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "I Concept Innovation Pte Ltd (Singapore)",
+      "position": "Programmer",
+      "duration": "Dec 2019 – Present",
+      "responsibility": [
+        "Good understanding in Ecommerce website solutions.",
+        "Develop Ecommerce website by WooCommerce.",
+        "Develop and build responsive websites with PHP, MySQL Database.",
+        "Convert the design source from PSD or AI to a functional website by apply website standard HTML5, CSS3, jQuery, Bootstrap.",
+        "Building email layouts for EDM.",
+        "Work closely with designer and project managers during website development.",
+        "Training and teaching clients how to use the website built for them."
+      ]
+    }
+  ]
+}

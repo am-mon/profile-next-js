@@ -1,0 +1,224 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Merz Aesthetics Serendipity Journey",
+      "description": "Corporate website",
+      "url": "https://myserendipityjourney.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "HAO mart",
+      "description": "E-commerce website",
+      "url": "https://haomart.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Simply Whisky",
+      "description": "E-commerce website",
+      "url": "https://www.simplywhisky.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Drum Tutor",
+      "description": "E-commerce website",
+      "url": "https://www.drumtutor.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "YSNC",
+      "description": "E-commerce website",
+      "url": "https://ysnc.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Alpha Fitness",
+      "description": "E-commerce website",
+      "url": "https://alphafitness.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Cekakis",
+      "description": "E-commerce website",
+      "url": "https://www.cekakis.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "WSI Works",
+      "description": "E-commerce website",
+      "url": "https://wsiworks.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "MIMS",
+      "description": "Corporate website",
+      "url": "https://corporate.mims.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Crystal Wines",
+      "description": "E-commerce website",
+      "url": "https://crystalwines.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Little but Mighty English",
+      "description": "Corporate website",
+      "url": "https://lilbutmightyenglish.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "EDOOVO International",
+      "description": "Corporate website",
+      "url": "https://www.edoovo.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Celergen",
+      "description": "E-commerce website",
+      "url": "https://celergen.shop/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Coatconut",
+      "description": "E-commerce website",
+      "url": "https://coatconut.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Beacon International College",
+      "description": "Corporate website",
+      "url": "https://beacon.edu.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    }
+  ]
+}

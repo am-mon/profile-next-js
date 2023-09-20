@@ -1,0 +1,49 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "title": "PHP, Database, SQL",
+      "rate": "75"
+    },
+    {
+      "id": 2,
+      "title": "Vue, React, Tailwind",
+      "rate": "60"
+    },
+    {
+      "id": 3,
+      "title": "Javascript",
+      "rate": "95"
+    },
+    {
+      "id": 4,
+      "title": "Git, GitHub",
+      "rate": "50"
+    },
+    {
+      "id": 5,
+      "title": "HTML5,CSS3",
+      "rate": "95"
+    },
+    {
+      "id": 6,
+      "title": "jQuery",
+      "rate": "90"
+    },
+    {
+      "id": 7,
+      "title": "WordPress/Elementor/CMS/EDM layouts",
+      "rate": "95"
+    },
+    {
+      "id": 8,
+      "title": "WooCommerce",
+      "rate": "85"
+    },
+    {
+      "id": 9,
+      "title": "Figma/Phototshop/Illustrator",
+      "rate": "70"
+    }
+  ]
+}
