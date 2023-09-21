@@ -16,11 +16,11 @@ export default function Projects(params) {
       <div className="bg-zinc-50">
         <Section>
           <h2 className={utilStyles.headingXl}>Projects</h2>
-          <ul className="flex flex-wrap justify-between text-left mt-10 flex-col md:flex-row">
+          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {projects_data?.slice(0, items).map((item) => (
               <li
                 key={item.id}
-                className="flex justify-between lg:w-[32%] md:w-[49%] w-full box-border p-6 md:mb-[2%] mb-3 shadow-lg shadow-grey-500/50 rounded bg-white"
+                className="flex justify-between w-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white"
               >
                 <div className="w-[50%] relative">
                   <h4 className="text-lg font-semibold">{item.title}</h4>
