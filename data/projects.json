@@ -12,7 +12,8 @@
         "HTML",
         "CSS",
         "WordPress"
-      ]
+      ],
+      "img": "p_1.jpg"
     },
     {
       "id": 2,
@@ -27,7 +28,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_2.jpg"
     },
     {
       "id": 3,
@@ -42,7 +44,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_3.jpg"
     },
     {
       "id": 4,
@@ -57,7 +60,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_4.jpg"
     },
     {
       "id": 5,
@@ -72,7 +76,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_13.jpg"
     },
     {
       "id": 6,
@@ -87,7 +92,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_5.jpg"
     },
     {
       "id": 7,
@@ -102,7 +108,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_6.jpg"
     },
     {
       "id": 8,
@@ -117,7 +124,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_7.jpg"
     },
     {
       "id": 9,
@@ -131,7 +139,8 @@
         "HTML",
         "CSS",
         "WordPress"
-      ]
+      ],
+      "img": "p_10.jpg"
     },
     {
       "id": 10,
@@ -146,7 +155,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_12.jpg"
     },
     {
       "id": 11,
@@ -160,7 +170,8 @@
         "HTML",
         "CSS",
         "WordPress"
-      ]
+      ],
+      "img": "p_14.jpg"
     },
     {
       "id": 12,
@@ -174,7 +185,8 @@
         "HTML",
         "CSS",
         "WordPress"
-      ]
+      ],
+      "img": "p_17.jpg"
     },
     {
       "id": 13,
@@ -189,7 +201,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_9.jpg"
     },
     {
       "id": 14,
@@ -204,7 +217,8 @@
         "CSS",
         "WordPress",
         "Woocommerce"
-      ]
+      ],
+      "img": "p_15.jpg"
     },
     {
       "id": 15,
@@ -218,7 +232,8 @@
         "HTML",
         "CSS",
         "WordPress"
-      ]
+      ],
+      "img": "p_16.jpg"
     }
   ]
 }

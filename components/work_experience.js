@@ -4,6 +4,8 @@ import education from "../data/education.json";
 import { useState } from "react";
 import Modal from "react-modal";
 import { AiOutlineClose } from "react-icons/ai";
+import Button from "./button";
+import Section from "./section";
 
 export default function Work_experience(params) {
   const work_experiences_data = work_experiences.work_experiences;
@@ -33,8 +35,8 @@ export default function Work_experience(params) {
 
   return (
     <>
-      <div className="bg-zinc-50 py-20">
-        <div className="container mx-auto box-border px-3">
+      <div className="bg-zinc-50">
+        <Section>
           <div className="flex flex-wrap justify-between text-left flex-col flex-col-reverse md:flex-row">
             <div className="md:w-[48%] w-full">
               <h2 className={utilStyles.headingXl}>Education</h2>
@@ -49,13 +51,9 @@ export default function Work_experience(params) {
                       </h3>
                       <p className="mb-2">{item.degree}</p>
                       <p className="text-sm text-zinc-500">{item.duration}</p>
-                      <div className="text-sm text-zinc-500 mt-3">
-                        <a
-                          href={item.url}
-                          target="_blank"
-                          className="underline text-zinc-500"
-                        >
-                          View More
+                      <div className="text-sm mt-3">
+                        <a href={item.url} target="_blank">
+                          <Button>View More</Button>
                         </a>
                       </div>
                     </li>
@@ -76,7 +74,7 @@ export default function Work_experience(params) {
                       </h3>
                       <p className="mb-2">{item.position}</p>
                       <p className="text-sm text-zinc-500">{item.duration}</p>
-                      <div className="text-sm text-zinc-500 mt-3">
+                      <div className="text-sm mt-3">
                         <span
                           className="underline cursor-pointer"
                           onClick={() => {
@@ -84,7 +82,7 @@ export default function Work_experience(params) {
                             setModalIsOpen(true);
                           }}
                         >
-                          View Job Description
+                          <Button>View Job Description</Button>
                         </span>
 
                         {/* <ul>
@@ -106,7 +104,7 @@ export default function Work_experience(params) {
                 <div className="modal_inner">
                   <div className="text-right">
                     <button onClick={() => setModalIsOpen(false)}>
-                      <AiOutlineClose className="text-2xl mb-3" />
+                      <AiOutlineClose className="text-2xl mb-3 hover:text-orange-500" />
                     </button>
                   </div>
                   <h3 className="md:text-lg text-base font-semibold mb-5">
@@ -123,7 +121,7 @@ export default function Work_experience(params) {
               </Modal>
             </div>
           </div>
-        </div>
+        </Section>
       </div>
     </>
   );

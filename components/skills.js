@@ -1,5 +1,6 @@
 import skills from "../data/skills.json";
 import utilStyles from "../styles/utils.module.css";
+import Section from "./section";
 
 export default function Skills(params) {
   const skills_data = skills.skills;
@@ -7,8 +8,8 @@ export default function Skills(params) {
 
   return (
     <>
-      <div className="bg-zinc-100 py-20">
-        <div className="container mx-auto box-border px-3">
+      <div className="bg-zinc-100">
+        <Section>
           <h2 className={utilStyles.headingXl}>Programming Skills</h2>
           <ul className="flex flex-wrap justify-between text-left mt-10 flex-col md:flex-row">
             {skills_data?.map((item) => (
@@ -17,16 +18,16 @@ export default function Skills(params) {
                   <span>{item.title}</span>
                   <span>{item.rate}%</span>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                <div className="w-full bg-zinc-300 rounded-full h-2.5 mb-4 dark:bg-zinc-700">
                   <div
-                    className="bg-gray-600 h-2.5 rounded-full dark:bg-gray-300"
+                    className="bg-zinc-500 h-2.5 rounded-full dark:bg-zinc-300"
                     style={{ width: `${item.rate}%` }}
                   ></div>
                 </div>
               </li>
             ))}
           </ul>
-        </div>
+        </Section>
       </div>
     </>
   );

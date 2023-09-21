@@ -3,8 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
-import { BiLogoGmail } from "react-icons/bi";
+import Social_icons from "./social_icons";
 
 const name = "Aye M. Mon";
 export const siteTitle = "Portfolio";
@@ -18,35 +17,21 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header>
         {home ? (
           <>
-            <div className="py-10 px-4 text-center">
+            <div className="py-14 px-4 text-center bg-white">
               <Image
                 priority
                 src="/assets/images/mon.jpg"
                 className="rounded-full mx-auto"
-                height={144}
-                width={144}
+                height={170}
+                width={170}
                 alt=""
               />
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
               <h2 className={utilStyles.headingLg}>Front-End Web Developer</h2>
-              <ul className="text-2xl flex flex-row space-x-7 justify-center text-center mt-7">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/ayemyatmon/"
-                    target="_blank"
-                  >
-                    <BsLinkedin />
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:ayemyatmon.yn@gmail.com" target="_blank">
-                    <BiLogoGmail />
-                  </a>
-                </li>
-              </ul>
+              <Social_icons />
             </div>
           </>
         ) : (
