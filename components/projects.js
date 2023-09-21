@@ -16,7 +16,7 @@ export default function Projects(params) {
       <div className="bg-zinc-50">
         <Section>
           <h2 className={utilStyles.headingXl}>Projects</h2>
-          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-10">
             {projects_data?.slice(0, items).map((item) => (
               <li
                 key={item.id}
