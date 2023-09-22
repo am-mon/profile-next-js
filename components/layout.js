@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
                 <Transition_image>
                   <Image
                     priority
-                    src="/assets/images/mon.png"
+                    src="/assets/images/mon_2.png"
                     className="rounded-full mx-auto w-[170px]"
                     height={700}
                     width={700}
