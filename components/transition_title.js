@@ -12,10 +12,9 @@ export default function Transition_title({ children }) {
   useEffect(() => {
     if (inView) {
       control.start("visible");
+    } else {
+      control.start("hidden");
     }
-    // else {
-    //   control.start("hidden");
-    // }
   }, [control, inView]);
 
   return (
