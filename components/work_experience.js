@@ -39,7 +39,9 @@ export default function Work_experience(params) {
     <>
       <div className="bg-zinc-50">
         <Section>
-          <div className="flex flex-wrap justify-between text-left flex-col flex-col-reverse md:flex-row">
+          <div
+            className={`${utilStyles.amm_shape_bg} flex flex-wrap justify-between text-left flex-col flex-col-reverse md:flex-row`}
+          >
             <div className="md:w-[48%] w-full">
               <Transition_title>
                 <h2 className={utilStyles.headingXl}>Education</h2>
