@@ -30,7 +30,7 @@ export default function Scroll_to_top(params) {
       }`}
       onClick={scrollToTop}
     >
-      <BsArrowUpCircle className="text-4xl" />
+      <BsArrowUpCircle className="text-3xl" />
     </button>
   );
 }

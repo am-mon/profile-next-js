@@ -64,13 +64,15 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <main>{children}</main>
+      <main>
+        {children}
+        <Scroll_to_top />
+      </main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
         </div>
       )}
-      <Scroll_to_top />
     </div>
   );
 }
