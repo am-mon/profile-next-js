@@ -2,97 +2,6 @@
   "projects": [
     {
       "id": 1,
-      "title": "The Meal App",
-      "description": "Mini React App by The Meal API",
-      "url": "https://the-meal-react.vercel.app/",
-      "programming_languages": [
-        "React",
-        "Tailwind CSS",
-        "Vite",
-        "GitHub",
-        "Vercel"
-      ],
-      "img": "p-react-01.png"
-    },
-    {
-      "id": 2,
-      "title": "Shopping App",
-      "description": "Mini React App by API",
-      "url": "https://shop-react-lac.vercel.app/",
-      "programming_languages": [
-        "React",
-        "Tailwind CSS",
-        "Vite",
-        "GitHub",
-        "Vercel"
-      ],
-      "img": "p-react-02.png"
-    },
-    {
-      "id": 3,
-      "title": "Merz Aesthetics Serendipity Journey",
-      "description": "Corporate website",
-      "url": "https://myserendipityjourney.com/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress"
-      ],
-      "img": "p_1.jpg"
-    },
-    {
-      "id": 4,
-      "title": "HAO mart",
-      "description": "E-commerce website",
-      "url": "https://haomart.com.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_2.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Simply Whisky",
-      "description": "E-commerce website",
-      "url": "https://www.simplywhisky.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_3.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Drum Tutor",
-      "description": "E-commerce website",
-      "url": "https://www.drumtutor.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_4.jpg"
-    },
-    {
-      "id": 7,
       "title": "YSNC",
       "description": "E-commerce website",
       "url": "https://ysnc.com.sg/",
@@ -108,7 +17,7 @@
       "img": "p_13.jpg"
     },
     {
-      "id": 8,
+      "id": 2,
       "title": "Alpha Fitness",
       "description": "E-commerce website",
       "url": "https://alphafitness.com.sg/",
@@ -124,7 +33,7 @@
       "img": "p_5.jpg"
     },
     {
-      "id": 9,
+      "id": 3,
       "title": "Cekakis",
       "description": "E-commerce website",
       "url": "https://www.cekakis.com/",
@@ -140,7 +49,7 @@
       "img": "p_6.jpg"
     },
     {
-      "id": 10,
+      "id": 4,
       "title": "WSI Works",
       "description": "E-commerce website",
       "url": "https://wsiworks.sg/",
@@ -156,7 +65,7 @@
       "img": "p_7.jpg"
     },
     {
-      "id": 11,
+      "id": 5,
       "title": "MIMS",
       "description": "Corporate website",
       "url": "https://corporate.mims.com/",
@@ -171,7 +80,7 @@
       "img": "p_10.jpg"
     },
     {
-      "id": 12,
+      "id": 6,
       "title": "Crystal Wines",
       "description": "E-commerce website",
       "url": "https://crystalwines.com/",
@@ -187,7 +96,7 @@
       "img": "p_12.jpg"
     },
     {
-      "id": 13,
+      "id": 7,
       "title": "Little but Mighty English",
       "description": "Corporate website",
       "url": "https://lilbutmightyenglish.com/",
@@ -202,7 +111,7 @@
       "img": "p_14.jpg"
     },
     {
-      "id": 14,
+      "id": 8,
       "title": "EDOOVO International",
       "description": "Corporate website",
       "url": "https://www.edoovo.com/",
@@ -217,7 +126,7 @@
       "img": "p_17.jpg"
     },
     {
-      "id": 15,
+      "id": 9,
       "title": "Celergen",
       "description": "E-commerce website",
       "url": "https://celergen.shop/",
@@ -233,7 +142,7 @@
       "img": "p_9.jpg"
     },
     {
-      "id": 16,
+      "id": 10,
       "title": "Coatconut",
       "description": "E-commerce website",
       "url": "https://coatconut.com.sg/",
@@ -249,7 +158,7 @@
       "img": "p_15.jpg"
     },
     {
-      "id": 17,
+      "id": 11,
       "title": "Beacon International College",
       "description": "Corporate website",
       "url": "https://beacon.edu.sg/",
@@ -262,6 +171,97 @@
         "WordPress"
       ],
       "img": "p_16.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Drum Tutor",
+      "description": "E-commerce website",
+      "url": "https://www.drumtutor.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_4.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Merz Aesthetics Serendipity Journey",
+      "description": "Corporate website",
+      "url": "https://myserendipityjourney.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Simply Whisky",
+      "description": "E-commerce website",
+      "url": "https://www.simplywhisky.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_3.jpg"
+    },
+    {
+      "id": 15,
+      "title": "HAO mart",
+      "description": "E-commerce website",
+      "url": "https://haomart.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_2.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Shopping App",
+      "description": "Mini React App by API",
+      "url": "https://shop-react-lac.vercel.app/",
+      "programming_languages": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "GitHub",
+        "Vercel"
+      ],
+      "img": "p-react-02.png"
+    },
+    {
+      "id": 17,
+      "title": "The Meal App",
+      "description": "Mini React App by The Meal API",
+      "url": "https://the-meal-react.vercel.app/",
+      "programming_languages": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "GitHub",
+        "Vercel"
+      ],
+      "img": "p-react-01.png"
     }
   ]
 }
