@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
                   <Image
                     priority
                     src="/assets/images/mon_3.png"
-                    className="rounded-full mx-auto w-[170px] grayscale hover:grayscale-0 cursor-pointer"
+                    className="rounded-full mx-auto w-[170px] grayscale-[70%] hover:grayscale-0 cursor-pointer"
                     height={700}
                     width={700}
                     alt=""

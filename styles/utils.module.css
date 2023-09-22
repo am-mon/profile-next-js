@@ -81,7 +81,7 @@ ul.timeline > li::after {
 }
 
 ul.timeline li:nth-of-type(n + 2) {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 ul.custom_list li {

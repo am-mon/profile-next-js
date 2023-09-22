@@ -1,12 +1,12 @@
-import { BsLinkedin } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 export default function Social_icons(params) {
   return (
-    <ul className="text-2xl flex flex-row space-x-7 justify-center text-center mt-7">
+    <ul className="text-4xl flex flex-row space-x-7 justify-center text-center mt-7">
       <li>
         <a href="https://www.linkedin.com/in/ayemyatmon/" target="_blank">
-          <BsLinkedin className="hover:text-blue-800" />
+          <FaLinkedin className="hover:text-blue-700" />
         </a>
       </li>
       <li>
