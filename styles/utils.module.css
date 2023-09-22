@@ -109,3 +109,11 @@ ul.custom_list li:nth-of-type(n + 2) {
     padding-bottom: 0;
   }
 }
+
+.home_head {
+  background: url(/assets/images/bg.png) no-repeat;
+  background-size: auto 100%;
+  background-position: top center;
+  padding-bottom: 50px;
+  background-repeat: repeat-x;
+}

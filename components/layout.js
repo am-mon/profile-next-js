@@ -21,9 +21,9 @@ export default function Layout({ children, home }) {
       </Head>
       <header>
         {home ? (
-          <>
+          <div className={utilStyles.home_head}>
             <Transition>
-              <div className="py-14 px-4 text-center bg-white">
+              <div className="py-14 px-4 text-center">
                 <Transition_image>
                   <Image
                     priority
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
                 <Social_icons />
               </div>
             </Transition>
-          </>
+          </div>
         ) : (
           <>
             {/* <Link href="/">
