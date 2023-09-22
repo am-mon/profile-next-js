@@ -48,12 +48,14 @@ export default function Projects(params) {
                   </div>
                   <div className="w-[47%]">
                     {item.img && (
-                      <Image
-                        src={`/assets/images/${item.img}`}
-                        width={500}
-                        height={500}
-                        alt={item.title}
-                      />
+                      <div className="shadow-lg shadow-grey-500/50 p-1">
+                        <Image
+                          src={`/assets/images/${item.img}`}
+                          width={500}
+                          height={500}
+                          alt={item.title}
+                        />
+                      </div>
                     )}
                   </div>
                 </li>
