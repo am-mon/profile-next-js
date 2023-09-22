@@ -4,6 +4,7 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Social_icons from "./social_icons";
+import Transition from "./transition";
 
 const name = "Aye M. Mon";
 export const siteTitle = "Portfolio";
@@ -20,19 +21,23 @@ export default function Layout({ children, home }) {
       <header>
         {home ? (
           <>
-            <div className="py-14 px-4 text-center bg-white">
-              <Image
-                priority
-                src="/assets/images/mon.jpg"
-                className="rounded-full mx-auto"
-                height={170}
-                width={170}
-                alt=""
-              />
-              <h1 className={utilStyles.heading2Xl}>{name}</h1>
-              <h2 className={utilStyles.headingLg}>Front-End Web Developer</h2>
-              <Social_icons />
-            </div>
+            <Transition>
+              <div className="py-14 px-4 text-center bg-white">
+                <Image
+                  priority
+                  src="/assets/images/mon.jpg"
+                  className="rounded-full mx-auto"
+                  height={170}
+                  width={170}
+                  alt=""
+                />
+                <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                <h2 className={utilStyles.headingLg}>
+                  Front-End Web Developer
+                </h2>
+                <Social_icons />
+              </div>
+            </Transition>
           </>
         ) : (
           <>

@@ -4,6 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 import Button from "./button";
 import Section from "./section";
+import Transition_title from "./transition_title";
 
 export default function Projects(params) {
   const projects_data = projects.projects;
@@ -15,7 +16,9 @@ export default function Projects(params) {
     <>
       <div className="bg-zinc-50">
         <Section>
-          <h2 className={utilStyles.headingXl}>Projects</h2>
+          <Transition_title>
+            <h2 className={utilStyles.headingXl}>Projects</h2>
+          </Transition_title>
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-10 mt-7">
             {projects_data
               ?.map((item) => (

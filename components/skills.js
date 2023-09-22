@@ -1,6 +1,7 @@
 import skills from "../data/skills.json";
 import utilStyles from "../styles/utils.module.css";
 import Section from "./section";
+import Transition_title from "./transition_title";
 
 export default function Skills(params) {
   const skills_data = skills.skills;
@@ -10,7 +11,9 @@ export default function Skills(params) {
     <>
       <div className="bg-zinc-100">
         <Section>
-          <h2 className={utilStyles.headingXl}>Programming Skills</h2>
+          <Transition_title>
+            <h2 className={utilStyles.headingXl}>Programming Skills</h2>
+          </Transition_title>
           <ul className="flex flex-wrap justify-between text-left mt-10 flex-col md:flex-row">
             {skills_data?.map((item) => (
               <li key={item.id} className="md:w-[48%] w-full mb-2">

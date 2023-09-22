@@ -6,6 +6,7 @@ import Modal from "react-modal";
 import { AiOutlineClose } from "react-icons/ai";
 import Button from "./button";
 import Section from "./section";
+import Transition_title from "./transition_title";
 
 export default function Work_experience(params) {
   const work_experiences_data = work_experiences.work_experiences;
@@ -39,7 +40,9 @@ export default function Work_experience(params) {
         <Section>
           <div className="flex flex-wrap justify-between text-left flex-col flex-col-reverse md:flex-row">
             <div className="md:w-[48%] w-full">
-              <h2 className={utilStyles.headingXl}>Education</h2>
+              <Transition_title>
+                <h2 className={utilStyles.headingXl}>Education</h2>
+              </Transition_title>
               <ul className={`${utilStyles.timeline} mt-7`}>
                 {education_data
                   .slice(0)
@@ -62,7 +65,9 @@ export default function Work_experience(params) {
             </div>
 
             <div className="md:w-[48%] w-full mb-10 md:mb-0">
-              <h2 className={utilStyles.headingXl}>Experience</h2>
+              <Transition_title>
+                <h2 className={utilStyles.headingXl}>Experience</h2>
+              </Transition_title>
               <ul className={`${utilStyles.timeline} mt-7`}>
                 {work_experiences_data
                   .slice(0)
