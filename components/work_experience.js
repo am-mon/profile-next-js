@@ -7,6 +7,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import Button from "./button";
 import Section from "./section";
 import Transition_title from "./transition_title";
+import Transition from "./transition";
 
 export default function Work_experience(params) {
   const work_experiences_data = work_experiences.work_experiences;
@@ -43,62 +44,66 @@ export default function Work_experience(params) {
               <Transition_title>
                 <h2 className={utilStyles.headingXl}>Education</h2>
               </Transition_title>
-              <ul className={`${utilStyles.timeline} mt-7`}>
-                {education_data
-                  .slice(0)
-                  .reverse()
-                  .map((item) => (
-                    <li key={item.id}>
-                      <h3 className={`font-semibold ${utilStyles.headingMd}`}>
-                        {item.title}
-                      </h3>
-                      <p className="mb-2">{item.degree}</p>
-                      <p className="text-sm text-zinc-500">{item.duration}</p>
-                      <div className="text-sm mt-3">
-                        <a href={item.url} target="_blank">
-                          <Button>View More</Button>
-                        </a>
-                      </div>
-                    </li>
-                  ))}
-              </ul>
+              <Transition>
+                <ul className={`${utilStyles.timeline} mt-7`}>
+                  {education_data
+                    .slice(0)
+                    .reverse()
+                    .map((item) => (
+                      <li key={item.id}>
+                        <h3 className={`font-semibold ${utilStyles.headingMd}`}>
+                          {item.title}
+                        </h3>
+                        <p className="mb-2">{item.degree}</p>
+                        <p className="text-sm text-zinc-500">{item.duration}</p>
+                        <div className="text-sm mt-3">
+                          <a href={item.url} target="_blank">
+                            <Button>View More</Button>
+                          </a>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+              </Transition>
             </div>
 
             <div className="md:w-[48%] w-full mb-10 md:mb-0">
               <Transition_title>
                 <h2 className={utilStyles.headingXl}>Experience</h2>
               </Transition_title>
-              <ul className={`${utilStyles.timeline} mt-7`}>
-                {work_experiences_data
-                  .slice(0)
-                  .reverse()
-                  .map((item) => (
-                    <li key={item.id}>
-                      <h3 className={`font-semibold ${utilStyles.headingMd}`}>
-                        {item.title}
-                      </h3>
-                      <p className="mb-2">{item.position}</p>
-                      <p className="text-sm text-zinc-500">{item.duration}</p>
-                      <div className="text-sm mt-3">
-                        <span
-                          className="underline cursor-pointer"
-                          onClick={() => {
-                            setModalData(item);
-                            setModalIsOpen(true);
-                          }}
-                        >
-                          <Button>View Job Description</Button>
-                        </span>
+              <Transition>
+                <ul className={`${utilStyles.timeline} mt-7`}>
+                  {work_experiences_data
+                    .slice(0)
+                    .reverse()
+                    .map((item) => (
+                      <li key={item.id}>
+                        <h3 className={`font-semibold ${utilStyles.headingMd}`}>
+                          {item.title}
+                        </h3>
+                        <p className="mb-2">{item.position}</p>
+                        <p className="text-sm text-zinc-500">{item.duration}</p>
+                        <div className="text-sm mt-3">
+                          <span
+                            className="underline cursor-pointer"
+                            onClick={() => {
+                              setModalData(item);
+                              setModalIsOpen(true);
+                            }}
+                          >
+                            <Button>View Job Description</Button>
+                          </span>
 
-                        {/* <ul>
+                          {/* <ul>
                           {item.responsibility.map((list, index) => (
                             <li key={index}>{list}</li>
                           ))}
                         </ul> */}
-                      </div>
-                    </li>
-                  ))}
-              </ul>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+              </Transition>
 
               <Modal
                 isOpen={modalIsOpen}
