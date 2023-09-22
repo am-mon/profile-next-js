@@ -35,7 +35,6 @@ export default function Layout({ children, home }) {
                     alt=""
                   />
                 </Transition_image>
-
                 <h1 className={utilStyles.heading2Xl}>{name}</h1>
                 <h2 className={utilStyles.headingLg}>
                   Front-End Web Developer
@@ -47,14 +46,14 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             {/* <Link href="/">
-              <Image
-                priority
-                src="/assets/images/mon.jpg"
-                className="rounded-full"
-                height={144}
-                width={144}
-                alt=""
-              />
+             <Image
+                    priority
+                    src="/assets/images/mon_3.png"
+                    className="rounded-full mx-auto w-[170px] grayscale-[70%] hover:grayscale-0 cursor-pointer"
+                    height={700}
+                    width={700}
+                    alt=""
+                  />
             </Link> */}
             {/* <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
