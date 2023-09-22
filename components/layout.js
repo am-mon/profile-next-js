@@ -6,6 +6,7 @@ import Link from "next/link";
 import Social_icons from "./social_icons";
 import Transition from "./transition";
 import Transition_image from "./transition_image";
+import Scroll_to_top from "./Scroll_to_top";
 
 const name = "Aye M. Mon";
 export const siteTitle = "Portfolio";
@@ -69,6 +70,7 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <Scroll_to_top />
     </div>
   );
 }
