@@ -56,7 +56,7 @@ export default function Work_experience(params) {
                         <h3 className={`font-semibold ${utilStyles.headingMd}`}>
                           {item.title}
                         </h3>
-                        <p className="mb-2">{item.degree}</p>
+                        <p className="my-2">{item.degree}</p>
                         <p className="text-sm text-zinc-500">{item.duration}</p>
                         <div className="text-sm mt-3">
                           <a href={item.url} target="_blank">
@@ -83,7 +83,7 @@ export default function Work_experience(params) {
                         <h3 className={`font-semibold ${utilStyles.headingMd}`}>
                           {item.title}
                         </h3>
-                        <p className="mb-2">{item.position}</p>
+                        <p className="my-2">{item.position}</p>
                         <p className="text-sm text-zinc-500">{item.duration}</p>
                         <div className="text-sm mt-3">
                           <span
