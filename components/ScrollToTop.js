@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BsArrowUpCircle } from "react-icons/bs";
 
-export default function Scroll_to_top(params) {
+export default function ScrollToTop(params) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Scroll_to_top(params) {
       }`}
       onClick={scrollToTop}
     >
-      <BsArrowUpCircle className="text-3xl" />
+      <BsArrowUpCircle className="text-4xl" />
     </button>
   );
 }
