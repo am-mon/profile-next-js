@@ -27,8 +27,8 @@ export default function Layout({ children, home }) {
                 <Transition_image>
                   <Image
                     priority
-                    src="/assets/images/mon_2.png"
-                    className="rounded-full mx-auto w-[170px]"
+                    src="/assets/images/mon_3.png"
+                    className="rounded-full mx-auto w-[170px] grayscale hover:grayscale-0 cursor-pointer"
                     height={700}
                     width={700}
                     alt=""
