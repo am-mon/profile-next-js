@@ -8,12 +8,14 @@ export default function Get_in_touch(params) {
     <>
       <div className="bg-gray-150">
         <Section>
-          <Transition_title>
-            <h2 className={`${utilStyles.headingXl} text-center`}>
-              Get In Touch
-            </h2>
-          </Transition_title>
-          <Social_icons />
+          <div className={utilStyles.get_in_touch}>
+            <Transition_title>
+              <h2 className={`${utilStyles.headingXl} text-center`}>
+                Get In Touch
+              </h2>
+            </Transition_title>
+            <Social_icons />
+          </div>
         </Section>
       </div>
     </>

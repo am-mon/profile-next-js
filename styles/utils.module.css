@@ -111,9 +111,19 @@ ul.custom_list li:nth-of-type(n + 2) {
 }
 
 .home_head {
-  background: url(/assets/images/bg.png) no-repeat;
+  background: url(/assets/images/bg.png);
   background-size: auto 100%;
   background-position: top center;
   padding-bottom: 50px;
   background-repeat: repeat-x;
+}
+
+.get_in_touch {
+  background: url(/assets/images/get_in_touch.png) no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  padding: 40px 0;
+  @media only screen and (max-width: 700px) {
+    padding: 0;
+  }
 }
