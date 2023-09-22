@@ -1,6 +1,7 @@
 import skills from "../data/skills.json";
 import utilStyles from "../styles/utils.module.css";
 import Section from "./section";
+import Transition_bar from "./transition_bar";
 import Transition_title from "./transition_title";
 
 export default function Skills(params) {
@@ -22,10 +23,14 @@ export default function Skills(params) {
                   <span>{item.rate}%</span>
                 </div>
                 <div className="w-full bg-zinc-300 rounded-full h-2.5 mb-4 dark:bg-zinc-700">
-                  <div
+                  {/* <div
                     className="bg-zinc-500 h-2.5 rounded-full dark:bg-zinc-300"
                     style={{ width: `${item.rate}%` }}
-                  ></div>
+                  ></div> */}
+                  <Transition_bar
+                    skill_rate={item.rate}
+                    className="bg-red h-[10px]"
+                  ></Transition_bar>
                 </div>
               </li>
             ))}

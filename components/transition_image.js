@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function Transition_image({ children }) {
-  const fadeIn_animation_variant = {
+  const animation_variant = {
     visible: { opacity: 1, scale: 1 },
     hidden: { opacity: 0, scale: 0 },
   };
@@ -24,7 +24,7 @@ export default function Transition_image({ children }) {
         initial="hidden"
         animate={control}
         transition={{ ease: "linear", duration: 0.5, delay: 1 }}
-        variants={fadeIn_animation_variant}
+        variants={animation_variant}
       >
         {children}
       </motion.div>
