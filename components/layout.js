@@ -7,6 +7,7 @@ import Social_icons from "./social_icons";
 import Transition from "./transition";
 import Transition_image from "./transition_image";
 import ScrollToTop from "./ScrollToTop";
+import Transition_rotate from "./transition_rotate";
 
 const name = "Aye M. Mon";
 export const siteTitle = "Portfolio";
@@ -35,11 +36,15 @@ export default function Layout({ children, home }) {
                     alt=""
                   />
                 </Transition_image>
-                <h1 className={utilStyles.heading2Xl}>{name}</h1>
-                <h2 className={utilStyles.headingLg}>
-                  Front-End Web Developer
-                </h2>
-                <Social_icons />
+                <Transition_rotate>
+                  <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                </Transition_rotate>
+                <Transition back_repeat>
+                  <h2 className={utilStyles.headingLg}>
+                    Front-End Web Developer
+                  </h2>
+                  <Social_icons />{" "}
+                </Transition>
               </div>
             </Transition>
           </div>

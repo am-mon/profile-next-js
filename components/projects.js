@@ -6,6 +6,7 @@ import Button from "./button";
 import Section from "./section";
 import Transition_title from "./transition_title";
 import Transition from "./transition";
+import Transition_rotate from "./transition_rotate";
 
 export default function Projects(params) {
   const projects_data = projects.projects;
@@ -68,12 +69,14 @@ export default function Projects(params) {
           </ul>
           {projects_data?.length > items && (
             <>
-              <button
-                onClick={() => setItems(items + 6)}
-                className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-black text-white py-2 px-5 rounded-lg hover:bg-orange-500"
-              >
-                View More
-              </button>
+              <Transition_rotate delay_time={0.7} back_repeat>
+                <button
+                  onClick={() => setItems(items + 6)}
+                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-black text-white py-2 px-5 rounded-lg hover:bg-orange-500"
+                >
+                  View More
+                </button>
+              </Transition_rotate>
             </>
           )}
         </Section>
