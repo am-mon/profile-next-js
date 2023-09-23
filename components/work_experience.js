@@ -71,7 +71,7 @@ export default function Work_experience(params) {
               </Transition>
             </div>
 
-            <div className="md:w-[48%] w-full mb-10 md:mb-0">
+            <div className="md:w-[48%] w-full mb-20 md:mb-0">
               <Transition_title>
                 <h2 className={utilStyles.headingXl}>Experience</h2>
               </Transition_title>
