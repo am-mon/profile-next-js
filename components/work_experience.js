@@ -19,6 +19,9 @@ export default function Work_experience(params) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [modalData, setModalData] = useState(null);
   const customStyles = {
+    overlay: {
+      background: "rgba(0,0,0,0.5)",
+    },
     content: {
       top: "50%",
       left: "50%",
@@ -27,7 +30,7 @@ export default function Work_experience(params) {
       marginRight: "-50%",
       width: "90%",
       maxWidth: "700px",
-      maxHeight: "80%",
+      maxHeight: "90%",
       padding: "25px",
       transform: "translate(-50%, -50%)",
       border: "0px",
