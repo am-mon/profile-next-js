@@ -26,12 +26,14 @@ export default function Work_experience(params) {
       bottom: "auto",
       marginRight: "-50%",
       width: "90%",
-      padding: "25px",
       maxWidth: "700px",
+      maxHeight: "80%",
+      padding: "25px",
       transform: "translate(-50%, -50%)",
       border: "0px",
       boxShadow: "0px 4px 10px rgba(0,0,0,0.2)",
       borderRadius: "10px",
+      overflow: "auto",
     },
   };
 
