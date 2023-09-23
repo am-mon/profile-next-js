@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import { AiFillGithub } from "react-icons/ai";
 
 export default function Social_icons(params) {
   return (
@@ -12,6 +13,11 @@ export default function Social_icons(params) {
       <li>
         <a href="mailto:ayemyatmon.yn@gmail.com" target="_blank">
           <BiLogoGmail className="hover:text-red-600" />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/am-mon" target="_blank">
+          <AiFillGithub className="hover:text-green-700" />
         </a>
       </li>
     </ul>
