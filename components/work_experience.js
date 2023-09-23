@@ -124,12 +124,10 @@ export default function Work_experience(params) {
                       <AiOutlineClose className="text-2xl mb-3 hover:text-orange-500" />
                     </button>
                   </div>
-                  <h3 className="md:text-lg text-base font-semibold mb-5">
+                  <h3 className="text-lg font-semibold mb-5">
                     Job Descriptions at {modalData?.title}
                   </h3>
-                  <ul
-                    className={`md:text-base text-sm ${utilStyles.custom_list}`}
-                  >
+                  <ul className={`text-base ${utilStyles.custom_list}`}>
                     {modalData?.responsibility.map((list, index) => (
                       <li key={index}>{list}</li>
                     ))}
