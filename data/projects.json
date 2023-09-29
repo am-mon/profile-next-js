@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "YSNC",
-      "description": "E-commerce website",
+      "description": "A specialist in event services and creative projects",
       "url": "https://ysnc.com.sg/",
       "programming_languages": [
         "PHP",
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "title": "Alpha Fitness",
-      "description": "E-commerce website",
+      "description": "Fitness solutions",
       "url": "https://alphafitness.com.sg/",
       "programming_languages": [
         "PHP",
@@ -67,7 +67,7 @@
     {
       "id": 5,
       "title": "MIMS",
-      "description": "Corporate website",
+      "description": "Healthcare corporate website",
       "url": "https://corporate.mims.com/",
       "programming_languages": [
         "PHP",
@@ -82,7 +82,7 @@
     {
       "id": 6,
       "title": "Crystal Wines",
-      "description": "E-commerce website",
+      "description": "Leading Wine Distributor",
       "url": "https://crystalwines.com/",
       "programming_languages": [
         "PHP",
@@ -98,7 +98,7 @@
     {
       "id": 7,
       "title": "Little but Mighty English",
-      "description": "Corporate website",
+      "description": "Primary & Secondary English in Singapore",
       "url": "https://lilbutmightyenglish.com/",
       "programming_languages": [
         "PHP",
@@ -113,7 +113,7 @@
     {
       "id": 8,
       "title": "EDOOVO International",
-      "description": "Corporate website",
+      "description": "An innovative edu-tech company in Singapore",
       "url": "https://www.edoovo.com/",
       "programming_languages": [
         "PHP",
@@ -128,7 +128,7 @@
     {
       "id": 9,
       "title": "Celergen",
-      "description": "E-commerce website",
+      "description": "Swiss Marine Supplement",
       "url": "https://celergen.shop/",
       "programming_languages": [
         "PHP",
@@ -144,7 +144,7 @@
     {
       "id": 10,
       "title": "Coatconut",
-      "description": "E-commerce website",
+      "description": "A local car detailing business in Singapore",
       "url": "https://coatconut.com.sg/",
       "programming_languages": [
         "PHP",
@@ -160,7 +160,7 @@
     {
       "id": 11,
       "title": "Beacon International College",
-      "description": "Corporate website",
+      "description": "A private education institution in Singapore",
       "url": "https://beacon.edu.sg/",
       "programming_languages": [
         "PHP",
@@ -175,7 +175,7 @@
     {
       "id": 12,
       "title": "Drum Tutor",
-      "description": "E-commerce website",
+      "description": "A drum school in Singapore",
       "url": "https://www.drumtutor.sg/",
       "programming_languages": [
         "PHP",
@@ -191,7 +191,7 @@
     {
       "id": 13,
       "title": "Merz Aesthetics Serendipity Journey",
-      "description": "Corporate website",
+      "description": "Beauty and Aesthetic",
       "url": "https://myserendipityjourney.com/",
       "programming_languages": [
         "PHP",
@@ -222,7 +222,7 @@
     {
       "id": 15,
       "title": "HAO mart",
-      "description": "E-commerce website",
+      "description": "Supermarkets in Singapore",
       "url": "https://haomart.com.sg/",
       "programming_languages": [
         "PHP",
@@ -237,6 +237,163 @@
     },
     {
       "id": 16,
+      "title": "Moonlight Joaillerie",
+      "description": "Jewellery E-commerce website",
+      "url": "https://moonlightjoaillerie.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_18.png"
+    },
+    {
+      "id": 17,
+      "title": "Visual Sense",
+      "description": "Audiovisual (AV) and IP PBX services",
+      "url": "https://vis-sense.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_19.png"
+    },
+    {
+      "id": 18,
+      "title": "Ottoson Japan",
+      "description": "Japanese Food Market",
+      "url": "https://ottoson.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_20.png"
+    },
+    {
+      "id": 19,
+      "title": "Soon Li",
+      "description": "Glass Contractor Singapore",
+      "url": "https://www.soonliservices.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_21.png"
+    },
+    {
+      "id": 20,
+      "title": "Little BIG Volunteer",
+      "description": "Mindful Virtues",
+      "url": "https://www.iamalittlebigvolunteer.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_22.png"
+    },
+    {
+      "id": 21,
+      "title": "Golden Horse",
+      "description": "A quant investment fund",
+      "url": "https://ghfundmanagement.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_23.png"
+    },
+    {
+      "id": 22,
+      "title": "Design Bureau",
+      "description": "Commercial Interior Designers",
+      "url": "https://designbureau.sg",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_24.png"
+    },
+    {
+      "id": 23,
+      "title": "Imperium Wood",
+      "description": "Customized furniture and engraving services",
+      "url": "https://imperiumwood.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_25.png"
+    },
+    {
+      "id": 24,
+      "title": "Manila Ocean Park",
+      "description": "An oceanarium in Manila, Philippines",
+      "url": "https://manilaoceanpark.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_26.png"
+    },
+    {
+      "id": 25,
+      "title": "Ichi",
+      "description": "Japanese Food Market",
+      "url": "https://ichi.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_27.png"
+    },
+    {
+      "id": 26,
       "title": "Shopping App",
       "description": "Mini React App by API",
       "url": "https://shop-react-lac.vercel.app/",
@@ -250,7 +407,7 @@
       "img": "p-react-02.png"
     },
     {
-      "id": 17,
+      "id": 27,
       "title": "The Meal App",
       "description": "Mini React App by The Meal API",
       "url": "https://the-meal-react.vercel.app/",
@@ -264,7 +421,7 @@
       "img": "p-react-01.png"
     },
     {
-      "id": 18,
+      "id": 28,
       "title": "Portfolio",
       "description": "Portfolio App",
       "url": "https://profile.ayemyatmon.com/",
