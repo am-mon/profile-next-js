@@ -67,6 +67,12 @@ export default function Projects(params) {
               .reverse()
               .slice(0, items)}
           </ul>
+          <Transition delay_time={0.7} back_repeat>
+            <div className="text-center my-10">
+              Showing {projects_data?.length > items ? items : "all"} of{" "}
+              {projects_data.length} projects
+            </div>
+          </Transition>
           {projects_data?.length > items && (
             <>
               <Transition_rotate delay_time={0.7} back_repeat>
