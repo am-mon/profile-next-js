@@ -12,6 +12,7 @@ import Select from "react-select";
 export default function Projects(params) {
   const [projectList, setProjectList] = useState([]);
   const [selectedProgramming, setSelectedProgramming] = useState();
+  const [items, setItems] = useState(6);
 
   const projects_data = projects.projects;
   console.log(projects_data);
@@ -45,9 +46,8 @@ export default function Projects(params) {
     // setSelectedProgramming(event.target.value); //without react select installing
     // console.log(event.value);
     setSelectedProgramming(event.value);
+    setItems(6);
   }
-
-  const [items, setItems] = useState(6);
 
   return (
     <>
