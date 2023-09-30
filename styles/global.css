@@ -30,3 +30,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.css-t3ipsp-control,
+.css-t3ipsp-control:focus,
+.css-t3ipsp-control:hover {
+  border-color: inherit !important;
+  box-shadow: none !important;
+}

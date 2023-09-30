@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import projects from "../data/projects.json";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
@@ -7,10 +7,45 @@ import Section from "./section";
 import Transition_title from "./transition_title";
 import Transition from "./transition";
 import Transition_rotate from "./transition_rotate";
+import Select from "react-select";
 
 export default function Projects(params) {
+  const [projectList, setProjectList] = useState([]);
+  const [selectedProgramming, setSelectedProgramming] = useState();
+
   const projects_data = projects.projects;
   console.log(projects_data);
+
+  const filterOptions = [
+    { value: "React", label: "React" },
+    { value: "PHP", label: "PHP" },
+    { value: "WordPress", label: "WordPress" },
+    { value: "Woocommerce", label: "Woocommerce" },
+  ];
+
+  useEffect(() => {
+    setProjectList(projects_data);
+  }, []);
+
+  function getFilteredList() {
+    if (!selectedProgramming) {
+      return projectList;
+    }
+    return projectList.filter((item) =>
+      item.programming_languages.includes(selectedProgramming)
+    );
+  }
+
+  var filteredList = useMemo(getFilteredList, [
+    selectedProgramming,
+    projectList,
+  ]);
+
+  function handleProgrammingChange(event) {
+    // setSelectedProgramming(event.target.value); //without react select installing
+    // console.log(event.value);
+    setSelectedProgramming(event.value);
+  }
 
   const [items, setItems] = useState(6);
 
@@ -18,11 +53,51 @@ export default function Projects(params) {
     <>
       <div className="bg-zinc-50">
         <Section>
-          <Transition_title>
-            <h2 className={utilStyles.headingXl}>Projects</h2>
-          </Transition_title>
+          <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between">
+            <div className="w-[100%] md:w-[50%]">
+              <Transition_title>
+                <h2 className={utilStyles.headingXl}>Projects</h2>
+              </Transition_title>
+            </div>
+            <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end">
+              <label for="programming-list" className="mb-2 md:mb-0 md:mr-2">
+                Filter by:{" "}
+              </label>
+              {/* <select
+                name="programming-list"
+                id="programming-list"
+                onChange={handleProgrammingChange}
+                className="bg-white border border-gray-300 p-2 rounded min-w-[100%] md:min-w-[200px] outline-0"
+              >
+                <option value="">All</option>
+                <option value="React">React</option>
+                <option value="PHP">PHP</option>
+                <option value="WordPress">WordPress</option>
+                <option value="Woocommerce">Woocommerce</option>
+              </select> */}
+              <Select
+                name="programming-list"
+                id="programming-list"
+                onChange={handleProgrammingChange}
+                options={filterOptions}
+                className=" min-w-[100%] md:min-w-[220px] outline-0 border-0"
+                theme={(theme) => ({
+                  ...theme,
+                  border: 1,
+                  borderRadius: 4,
+                  colors: {
+                    ...theme.colors,
+                    text: "#000000",
+                    primary25: "rgb(244 244 245)",
+                    primary: "rgb(212 212 216)",
+                  },
+                })}
+              />
+            </div>
+          </div>
+
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-10 mt-7">
-            {projects_data
+            {filteredList
               ?.map((item) => (
                 <Transition key={item.id}>
                   <li className="flex justify-between w-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white">
@@ -69,11 +144,12 @@ export default function Projects(params) {
           </ul>
           <Transition delay_time={0.7} back_repeat>
             <div className="text-center my-10">
-              Showing {projects_data?.length > items ? items : "all"} of{" "}
-              {projects_data.length} projects
+              Showing{" "}
+              {filteredList?.length > items ? items : filteredList.length} of{" "}
+              {filteredList.length} {selectedProgramming} projects
             </div>
           </Transition>
-          {projects_data?.length > items && (
+          {filteredList?.length > items && (
             <>
               <Transition_rotate delay_time={0.7} back_repeat>
                 <button
