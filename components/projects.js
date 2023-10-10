@@ -60,12 +60,9 @@ export default function Projects(params) {
               </Transition_title>
             </div>
             <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end">
-              <label for="programming-list" className="mb-2 md:mb-0 md:mr-2">
-                Filter by:{" "}
-              </label>
+              <label className="mb-2 md:mb-0 md:mr-2">Filter by: </label>
               {/* <select
                 name="programming-list"
-                id="programming-list"
                 onChange={handleProgrammingChange}
                 className="bg-white border border-gray-300 p-2 rounded min-w-[100%] md:min-w-[200px] outline-0"
               >
@@ -76,8 +73,8 @@ export default function Projects(params) {
                 <option value="Woocommerce">Woocommerce</option>
               </select> */}
               <Select
+                instanceId="select_programming"
                 name="programming-list"
-                id="programming-list"
                 onChange={handleProgrammingChange}
                 options={filterOptions}
                 className=" min-w-[100%] md:min-w-[220px] outline-0 border-0"
