@@ -422,6 +422,20 @@
     },
     {
       "id": 28,
+      "title": "Movie App",
+      "description": "Mini React App by The Movie Database (TMDB)",
+      "url": "https://the-movie-react-flame.vercel.app/",
+      "programming_languages": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "GitHub",
+        "Vercel"
+      ],
+      "img": "p-react-03.png"
+    },
+    {
+      "id": 29,
       "title": "Portfolio",
       "description": "Portfolio App",
       "url": "https://profile.ayemyatmon.com/",
