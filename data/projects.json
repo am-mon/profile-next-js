@@ -423,7 +423,7 @@
     {
       "id": 28,
       "title": "Movie App",
-      "description": "Mini React App by The Movie Database (TMDB)",
+      "description": "Mini React App by The Movie Database (TMDB) API",
       "url": "https://the-movie-react-flame.vercel.app/",
       "programming_languages": [
         "React",
