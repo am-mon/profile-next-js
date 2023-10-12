@@ -18,6 +18,7 @@ export default function Projects(params) {
   console.log(projects_data);
 
   const filterOptions = [
+    { value: "All", label: "All" },
     { value: "React", label: "React" },
     { value: "PHP", label: "PHP" },
     { value: "WordPress", label: "WordPress" },
@@ -29,7 +30,7 @@ export default function Projects(params) {
   }, []);
 
   function getFilteredList() {
-    if (!selectedProgramming) {
+    if (!selectedProgramming || selectedProgramming === "All") {
       return projectList;
     }
     return projectList.filter((item) =>
@@ -143,7 +144,9 @@ export default function Projects(params) {
             <div className="text-center my-10">
               Showing{" "}
               {filteredList?.length > items ? items : filteredList.length} of{" "}
-              {filteredList.length} {selectedProgramming} projects
+              {filteredList.length}{" "}
+              {selectedProgramming === "All" ? "" : selectedProgramming}{" "}
+              projects
             </div>
           </Transition>
           {filteredList?.length > items && (
