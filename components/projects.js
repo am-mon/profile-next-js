@@ -78,6 +78,7 @@ export default function Projects(params) {
                 name="programming-list"
                 onChange={handleProgrammingChange}
                 options={filterOptions}
+                defaultValue={filterOptions[0]}
                 className=" min-w-[100%] md:min-w-[220px] outline-0 border-0"
                 theme={(theme) => ({
                   ...theme,
