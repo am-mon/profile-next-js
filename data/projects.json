@@ -396,7 +396,7 @@
       "id": 26,
       "title": "Shopping App",
       "description": "Mini React App by API",
-      "url": "https://shop-react-lac.vercel.app/",
+      "url": "https://react-shop-app.ayemyatmon.com/",
       "programming_languages": [
         "React",
         "Tailwind CSS",
@@ -410,7 +410,7 @@
       "id": 27,
       "title": "The Meal App",
       "description": "Mini React App by The Meal API",
-      "url": "https://the-meal-react.vercel.app/",
+      "url": "https://react-meal-app.ayemyatmon.com/",
       "programming_languages": [
         "React",
         "Tailwind CSS",
@@ -424,7 +424,7 @@
       "id": 28,
       "title": "Movie App",
       "description": "Mini React App by The Movie Database (TMDB) API",
-      "url": "https://the-movie-react-flame.vercel.app/",
+      "url": "https://react-movie-app.ayemyatmon.com/",
       "programming_languages": [
         "React",
         "Tailwind CSS",
