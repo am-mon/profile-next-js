@@ -19,6 +19,7 @@ export default function Projects(params) {
 
   const filterOptions = [
     { value: "All", label: "All" },
+    { value: "Vue", label: "Vue" },
     { value: "React", label: "React" },
     { value: "PHP", label: "PHP" },
     { value: "WordPress", label: "WordPress" },
