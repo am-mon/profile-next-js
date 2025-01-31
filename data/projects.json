@@ -450,11 +450,11 @@
     },
     {
       "id": 30,
-      "title": "Weather App",
+      "title": "Vue Weather App",
       "description": "Mini Weather App by OpenWeather API",
       "url": "https://vue-weather-app.ayemyatmon.com",
       "programming_languages": ["Vue", "Bootstrap", "Vite", "GitHub", "Vercel"],
-      "img": "p-react-03.png"
+      "img": "p-vue-01.png"
     },
     {
       "id": 31,
