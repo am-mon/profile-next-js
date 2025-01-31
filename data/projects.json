@@ -422,20 +422,6 @@
     },
     {
       "id": 28,
-      "title": "Weather App",
-      "description": "Mini Weather App by OpenWeather API",
-      "url": "https://weather-app.ayemyatmon.com/",
-      "programming_languages": [
-        "React",
-        "Tailwind CSS",
-        "Vite",
-        "GitHub",
-        "Vercel"
-      ],
-      "img": "p-react-04.png"
-    },
-    {
-      "id": 29,
       "title": "Movie App",
       "description": "Mini React App by The Movie Database (TMDB) API",
       "url": "https://react-movie-app.ayemyatmon.com/",
@@ -449,7 +435,29 @@
       "img": "p-react-03.png"
     },
     {
+      "id": 29,
+      "title": "Weather App",
+      "description": "Mini Weather App by OpenWeather API",
+      "url": "https://weather-app.ayemyatmon.com/",
+      "programming_languages": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "GitHub",
+        "Vercel"
+      ],
+      "img": "p-react-04.png"
+    },
+    {
       "id": 30,
+      "title": "Weather App",
+      "description": "Mini Weather App by OpenWeather API",
+      "url": "https://vue-weather-app.ayemyatmon.com",
+      "programming_languages": ["Vue", "Bootstrap", "Vite", "GitHub", "Vercel"],
+      "img": "p-react-03.png"
+    },
+    {
+      "id": 31,
       "title": "Portfolio",
       "description": "Portfolio App",
       "url": "https://profile.ayemyatmon.com/",
