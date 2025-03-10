@@ -128,7 +128,7 @@ export default function Projects(params) {
                       {item.img && (
                         <div className="shadow-lg shadow-grey-500/50 p-1">
                           <a
-                            className="block static"
+                            className="block static transition-opacity duration-300 hover:opacity-75"
                             href={item.url}
                             target="_blank"
                           >
