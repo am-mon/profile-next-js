@@ -9,7 +9,7 @@ import Transition_image from "./transition_image";
 import ScrollToTop from "./ScrollToTop";
 import Transition_rotate from "./transition_rotate";
 
-const name = "Aye M. Mon";
+const name = "Aye Myat Mon";
 export const siteTitle = "Portfolio";
 
 export default function Layout({ children, home }) {
@@ -40,8 +40,12 @@ export default function Layout({ children, home }) {
                   <h1 className={utilStyles.heading2Xl}>{name}</h1>
                 </Transition_rotate>
                 <Transition back_repeat>
-                  <h2 className={utilStyles.headingLg}>
+                  {/* <h2 className={utilStyles.headingLg}>
                     Front-End Web Developer
+                  </h2> */}
+                  <h2 className={utilStyles.headingLg}>
+                    <b>Web Developer | Frontend & CMS Specialist</b> <br />
+                    JavaScript, React, Vue, Tailwind, PHP, SQL, WordPress
                   </h2>
                   <Social_icons />{" "}
                 </Transition>
