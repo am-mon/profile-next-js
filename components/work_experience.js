@@ -92,7 +92,7 @@ export default function Work_experience(params) {
                         <p className="text-sm text-zinc-500">{item.duration}</p>
                         <div className="text-sm mt-3">
                           <span
-                            className="underline cursor-pointer"
+                            className="cursor-pointer"
                             onClick={() => {
                               setModalData(item);
                               setModalIsOpen(true);
@@ -121,7 +121,7 @@ export default function Work_experience(params) {
                 <div className="modal_inner">
                   <div className="text-right">
                     <button onClick={() => setModalIsOpen(false)}>
-                      <AiOutlineClose className="text-2xl mb-3 hover:text-orange-500" />
+                      <AiOutlineClose className="text-2xl mb-3 hover:text-pink-500" />
                     </button>
                   </div>
                   <h3 className="text-lg font-semibold mb-5">
