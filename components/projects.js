@@ -121,7 +121,7 @@ export default function Projects(params) {
                         href={item.url}
                         target="_blank"
                       >
-                        <Button>View Website</Button>
+                        <Button>View Project</Button>
                       </a>
                     </div>
                     <div className="w-[47%]">
