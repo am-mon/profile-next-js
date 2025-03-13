@@ -118,8 +118,9 @@ export default function Projects(params) {
                       </ul>
                       <a
                         className="block mt-3 text-sm xl:absolute bottom-0 left-0 static"
-                        href={item.url}
-                        target="_blank"
+                        // href={item.url}
+                        href={`./projects/${item.id}`}
+                        // target="_blank"
                       >
                         <Button>View Project</Button>
                       </a>
