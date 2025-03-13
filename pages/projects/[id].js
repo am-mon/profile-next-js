@@ -40,7 +40,7 @@ export default function ProjectDetailPage() {
               className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-gray-300 py-1 px-2 text-sm rounded"
               href="/"
             >
-              <BsArrowLeft className="mr-2" /> Back to Home
+              <BsArrowLeft className="mr-2" /> Back to Profile
             </a>
             <div className="bg-zinc-50 container mx-auto flex flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-between">
               <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 py-10">
