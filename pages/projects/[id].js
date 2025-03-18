@@ -83,6 +83,7 @@ export default function ProjectDetailPage() {
               </div>
             </div>
           </div>
+
           {project.images?.some((img) => img.src !== "") && (
             <div className="bg-zinc-100">
               <Section>
