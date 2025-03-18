@@ -86,7 +86,7 @@ export default function ProjectDetailPage() {
 
           {project.images?.some((img) => img.src !== "") && (
             <div className="bg-zinc-100">
-              <Section>
+              <div className="container mx-auto py-10 px-5">
                 <ul>
                   {project.images?.map(
                     (item, index) =>
@@ -120,7 +120,7 @@ export default function ProjectDetailPage() {
                       )
                   )}
                 </ul>
-              </Section>
+              </div>
             </div>
           )}
         </>
