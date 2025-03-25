@@ -145,5 +145,13 @@ ul.custom_list li:nth-of-type(n + 2) {
   }
 }
 
-.project_featured_img {
+button.has_hover_effect svg {
+  transition: all ease 0.3s;
+  position: relative;
+  right: 0;
+  margin-right: 10px;
+}
+
+button.has_hover_effect:hover svg {
+  right: -10px;
 }
