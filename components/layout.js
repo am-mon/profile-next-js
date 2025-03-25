@@ -21,7 +21,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="border-t-8 border-gray-900">
+      <header className="border-t-8 border-emerald-300 ">
         {home ? (
           <div className={utilStyles.home_head}>
             <Transition>
@@ -45,7 +45,8 @@ export default function Layout({ children, home }) {
                   </h2> */}
                   <h2 className={utilStyles.headingLg}>
                     <b>Web Developer | Frontend & CMS Specialist</b> <br />
-                    JavaScript, React, Vue, Tailwind, PHP, SQL, WordPress
+                    JavaScript, React, Next.js, Vue, Tailwind, PHP, Python, SQL,
+                    WordPress
                   </h2>
                   <Social_icons />{" "}
                 </Transition>

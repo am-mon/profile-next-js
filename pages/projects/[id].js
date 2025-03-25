@@ -37,7 +37,7 @@ export default function ProjectDetailPage() {
         <>
           <div className="bg-zinc-50 px-5 pt-10 sm:pt-0 md:pt-0">
             <a
-              className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-gray-300 py-1 px-2 text-sm rounded"
+              className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-emerald-300 py-1 px-2 text-sm rounded"
               href="/"
             >
               <BsArrowLeft className="mr-2" /> Back to Profile
@@ -66,7 +66,7 @@ export default function ProjectDetailPage() {
                     href={project.url}
                     target="_blank"
                   >
-                    <Button>{project.url}</Button>
+                    <Button>URL: {project.url}</Button>
                   </a>
                 </div>
                 <div></div>

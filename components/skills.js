@@ -10,7 +10,7 @@ export default function Skills(params) {
 
   return (
     <>
-      <div className="bg-zinc-100">
+      <div className="bg-zinc-100 ">
         <Section>
           <Transition_title>
             <h2 className={utilStyles.headingXl}>Programming Skills</h2>

@@ -163,7 +163,7 @@ export default function Projects(params) {
               <Transition_rotate delay_time={0.7} back_repeat>
                 <button
                   onClick={() => setItems(items + 9)}
-                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-yellow-400 text-black py-2 px-5 rounded-lg hover:bg-black hover:text-white"
+                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-emerald-300 text-black py-2 px-5 rounded-lg hover:bg-black hover:text-white"
                 >
                   View More
                 </button>

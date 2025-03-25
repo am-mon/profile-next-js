@@ -2,7 +2,7 @@
   "skills": [
     {
       "id": 1,
-      "title": "PHP, Database, SQL",
+      "title": "PHP, Python, Database, SQL",
       "rate": "75"
     },
     {
@@ -12,19 +12,20 @@
     },
     {
       "id": 3,
-      "title": "Javascript",
+      "title": "HTML5,CSS3",
       "rate": "95"
     },
     {
       "id": 4,
-      "title": "Git, GitHub",
-      "rate": "70"
+      "title": "Javascript",
+      "rate": "95"
     },
     {
       "id": 5,
-      "title": "HTML5,CSS3",
-      "rate": "95"
+      "title": "Git, GitHub",
+      "rate": "70"
     },
+
     {
       "id": 6,
       "title": "jQuery",

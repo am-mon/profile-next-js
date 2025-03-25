@@ -6,7 +6,7 @@ import Transition_title from "./transition_title";
 export default function Get_in_touch(params) {
   return (
     <>
-      <div className="bg-gray-150">
+      <div className="bg-gray-150 text-center ">
         <Section>
           <div className={utilStyles.get_in_touch}>
             <Transition_title>
