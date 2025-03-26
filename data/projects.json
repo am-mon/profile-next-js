@@ -427,9 +427,11 @@
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" }
+        { "src": "soonli-01.jpg", "desc": "Home" },
+        { "src": "soonli-02.jpg", "desc": "About" },
+        { "src": "soonli-03.jpg", "desc": "Services" },
+        { "src": "soonli-04.jpg", "desc": "Portfolio" },
+        { "src": "soonli-05.jpg", "desc": "Contact" }
       ]
     },
     {
@@ -522,9 +524,12 @@
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" }
+        { "src": "imperiumwood-01.jpg", "desc": "Home" },
+        { "src": "imperiumwood-02.jpg", "desc": "About" },
+        { "src": "imperiumwood-03.jpg", "desc": "The Craft" },
+        { "src": "imperiumwood-04.jpg", "desc": "Masterpiece" },
+        { "src": "imperiumwood-05.jpg", "desc": "Shop Collections" },
+        { "src": "imperiumwood-06.jpg", "desc": "Product Details" }
       ]
     },
     {
@@ -544,11 +549,9 @@
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "manila-01.jpg", "desc": "" },
-        { "src": "manila-02.jpg", "desc": "" },
-        { "src": "manila-03.jpg", "desc": "" },
-        { "src": "manila-04.jpg", "desc": "" },
-        { "src": "manila-05.jpg", "desc": "" }
+        { "src": "manilaocean-01.jpg", "desc": "Manila Ocean Park" },
+        { "src": "manilaocean-02.jpg", "desc": "Hotel H2O" },
+        { "src": "manilaocean-03.jpg", "desc": "Manila Ocean Park Attractions" }
       ]
     },
     {
@@ -569,11 +572,12 @@
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "ichi-01.jpg", "desc": "About Ichi" },
-        { "src": "ichi-02.jpg", "desc": "Product Listing" },
-        { "src": "ichi-03.jpg", "desc": "Product Detail" },
-        { "src": "ichi-04.jpg", "desc": "Cart" },
-        { "src": "ichi-05.jpg", "desc": "Checkout" }
+        { "src": "ichi-01.jpg", "desc": "Home" },
+        { "src": "ichi-02.jpg", "desc": "About Ichi" },
+        { "src": "ichi-03.jpg", "desc": "Product Listing" },
+        { "src": "ichi-04.jpg", "desc": "Product Detail" },
+        { "src": "ichi-05.jpg", "desc": "Cart" },
+        { "src": "ichi-06.jpg", "desc": "Checkout" }
       ]
     },
     {

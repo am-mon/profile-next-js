@@ -100,7 +100,7 @@ export default function Projects(params) {
             {filteredList
               ?.map((item) => (
                 <Transition key={item.id}>
-                  <li className="flex justify-between w-full h-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white">
+                  <li className="flex justify-between w-full h-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white hover:bg-emerald-50">
                     <div className="w-[50%] relative">
                       <h4 className="text-lg font-semibold">{item.title}</h4>
                       <p className="text-sm text-zinc-600 mt-3">

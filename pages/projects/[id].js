@@ -6,6 +6,7 @@ import Link from "next/link";
 import utilStyles from "../../styles/utils.module.css";
 import Button from "../../components/button";
 import { BsArrowLeft } from "react-icons/bs";
+// import Transition from "../../components/transition";
 
 export default function ProjectDetailPage() {
   const router = useRouter();
@@ -71,7 +72,9 @@ export default function ProjectDetailPage() {
                 </div>
                 <div></div>
               </div>
-              <div className="w-auto sm:w-1/2 md:w-1/2 lg:w-1/2">
+              <div
+                className={`${utilStyles.project_top_img} w-auto sm:w-1/2 md:w-1/2 lg:w-1/2`}
+              >
                 <Image
                   src={`/assets/images/${project.img}`}
                   width={1000}
@@ -102,7 +105,11 @@ export default function ProjectDetailPage() {
                               index % 2 === 0 ? "flex-row-reverse" : "flex-row"
                             }`}
                           >
-                            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+                            <h3
+                              className={`text-2xl md:text-3xl lg:text-4xl font-bold ${
+                                index % 2 === 0 ? "ml-10" : "mr-10"
+                              }`}
+                            >
                               {item.desc}
                             </h3>
                             <span className="text-3xl md:text-4xl lg:text-5xl text-gray-300 font-bold">

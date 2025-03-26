@@ -155,3 +155,18 @@ button.has_hover_effect svg {
 button.has_hover_effect:hover svg {
   right: -10px;
 }
+
+.project_top_img {
+  position: relative;
+}
+
+.project_top_img:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  opacity: 0.3;
+}
