@@ -484,30 +484,6 @@
     },
     {
       "id": 22,
-      "title": "Design Bureau",
-      "description": "Commercial Interior Designers",
-      "url": "https://designbureau.sg",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress"
-      ],
-      "img": "p_24.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "designbureau-00.jpg", "desc": "Home" },
-        { "src": "designbureau-01.jpg", "desc": "Services" },
-        { "src": "designbureau-02.jpg", "desc": "Portfolio" },
-        { "src": "designbureau-03.jpg", "desc": "News & Insights" },
-        { "src": "designbureau-04.jpg", "desc": "Contact" }
-      ]
-    },
-    {
-      "id": 23,
       "title": "Imperium Wood",
       "description": "Customized furniture and engraving services",
       "url": "https://imperiumwood.com.sg/",
@@ -530,6 +506,30 @@
         { "src": "imperiumwood-04.jpg", "desc": "Masterpiece" },
         { "src": "imperiumwood-05.jpg", "desc": "Shop Collections" },
         { "src": "imperiumwood-06.jpg", "desc": "Product Details" }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Design Bureau",
+      "description": "Commercial Interior Designers",
+      "url": "https://designbureau.sg",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_24.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "designbureau-00.jpg", "desc": "Home" },
+        { "src": "designbureau-01.jpg", "desc": "Services" },
+        { "src": "designbureau-02.jpg", "desc": "Portfolio" },
+        { "src": "designbureau-03.jpg", "desc": "News & Insights" },
+        { "src": "designbureau-04.jpg", "desc": "Contact" }
       ]
     },
     {
