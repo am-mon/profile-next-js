@@ -7,6 +7,7 @@ import utilStyles from "../../styles/utils.module.css";
 import Button from "../../components/button";
 import { BsArrowLeft } from "react-icons/bs";
 // import Transition from "../../components/transition";
+import Head from "next/head";
 
 export default function ProjectDetailPage() {
   const router = useRouter();
@@ -26,7 +27,11 @@ export default function ProjectDetailPage() {
   );
 
   if (currentProjectIndex === -1) {
-    return <p>Project not found</p>;
+    return (
+      <div className="bg-zinc-50 px-5 py-20 text-center">
+        <p className="text-3xl">Project not found!</p>
+      </div>
+    );
   }
 
   const prevProject = projectsData.projects[currentProjectIndex - 1] || null;
@@ -36,6 +41,11 @@ export default function ProjectDetailPage() {
     <div>
       {project ? (
         <>
+          <Head>
+            <title>
+              {id ? `Project ${id} - ${project.title}` : "Loading..."}
+            </title>
+          </Head>
           <div className="bg-zinc-50 px-5 pt-10 sm:pt-0 md:pt-0">
             <a
               className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-emerald-300 font-medium py-1 px-2 text-sm rounded"
