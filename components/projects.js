@@ -12,7 +12,7 @@ import Select from "react-select";
 export default function Projects(params) {
   const [projectList, setProjectList] = useState([]);
   const [selectedProgramming, setSelectedProgramming] = useState();
-  const [items, setItems] = useState(9);
+  const [items, setItems] = useState(12);
 
   const projects_data = projects.projects;
   console.log(projects_data);
@@ -48,7 +48,7 @@ export default function Projects(params) {
     // setSelectedProgramming(event.target.value); //without react select installing
     // console.log(event.value);
     setSelectedProgramming(event.value);
-    setItems(9);
+    setItems(12);
   }
 
   return (
@@ -162,7 +162,7 @@ export default function Projects(params) {
             <>
               <Transition_rotate delay_time={0.7} back_repeat>
                 <button
-                  onClick={() => setItems(items + 9)}
+                  onClick={() => setItems(items + 12)}
                   className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-emerald-300 text-black py-2 px-5 rounded-lg hover:bg-black hover:text-white"
                 >
                   View More
