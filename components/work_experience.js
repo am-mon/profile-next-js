@@ -42,7 +42,7 @@ export default function Work_experience(params) {
 
   return (
     <>
-      <div className="bg-zinc-50">
+      <div className="bg-white">
         <Section>
           <div
             className={`${utilStyles.amm_shape_bg} flex flex-wrap justify-between text-left flex-col flex-col-reverse md:flex-row`}

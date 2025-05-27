@@ -10,7 +10,7 @@ export default function Skills(params) {
 
   return (
     <>
-      <div className="bg-zinc-100 ">
+      <div className="bg-blue-50 ">
         <Section>
           <Transition_title>
             <h2 className={utilStyles.headingXl}>Programming Skills</h2>
@@ -22,7 +22,7 @@ export default function Skills(params) {
                   <span>{item.title}</span>
                   <span>{item.rate}%</span>
                 </div>
-                <div className="w-full bg-zinc-300 rounded-full h-2.5 mb-4 dark:bg-zinc-700">
+                <div className="w-full bg-blue-100 rounded-full h-2.5 mb-4 dark:bg-zinc-700">
                   {/* <div
                     className="bg-zinc-500 h-2.5 rounded-full dark:bg-zinc-300"
                     style={{ width: `${item.rate}%` }}

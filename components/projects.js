@@ -53,7 +53,7 @@ export default function Projects(params) {
 
   return (
     <>
-      <div className="bg-zinc-50">
+      <div className="bg-blue-100">
         <Section>
           <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between">
             <div className="w-[100%] md:w-[50%]">
@@ -88,10 +88,21 @@ export default function Projects(params) {
                   colors: {
                     ...theme.colors,
                     text: "#000000",
-                    primary25: "rgb(244 244 245)",
-                    primary: "rgb(212 212 216)",
+                    primary25: "oklch(88.2% 0.059 254.128)",
+                    primary: "oklch(88.2% 0.059 254.128)",
+                    neutral0: "#ffffff", // Background color of the select box
                   },
                 })}
+                styles={{
+                  control: (base) => ({
+                    ...base,
+                    borderWidth: 2, // 2px border width
+                    borderColor: "oklch(88.2% 0.059 254.128)",
+                    "&:hover": {
+                      borderColor: "oklch(54.6% 0.245 262.881)",
+                    },
+                  }),
+                }}
               />
             </div>
           </div>
@@ -100,24 +111,24 @@ export default function Projects(params) {
             {filteredList
               ?.map((item) => (
                 <Transition key={item.id}>
-                  <li className="flex justify-between w-full h-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white hover:bg-emerald-50">
+                  <li className="flex justify-between w-full h-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white hover:bg-blue-50">
                     <div className="w-[50%] relative">
                       <h4 className="text-lg font-semibold">{item.title}</h4>
                       <p className="text-sm text-zinc-600 mt-3">
                         {item.description}
                       </p>
-                      <ul className="flex flex-wrap text-xs text-zinc-500 mt-3">
+                      <ul className="flex flex-wrap text-xs text-zinc-700 mt-3">
                         {item.programming_languages.map((list, index) => (
                           <li
                             key={index}
-                            className="mr-1 mb-1 bg-zinc-200 px-2 py-1 rounded"
+                            className="mr-1 mb-1 bg-blue-200 px-2 py-1 rounded"
                           >
                             {list}
                           </li>
                         ))}
                       </ul>
                       <a
-                        className="block mt-3 text-sm xl:absolute bottom-0 left-0 static"
+                        className="block mt-3 text-sm 2xl:absolute bottom-0 left-0 static"
                         // href={item.url}
                         href={`./projects/${item.id}`}
                         // target="_blank"
@@ -163,7 +174,7 @@ export default function Projects(params) {
               <Transition_rotate delay_time={0.7} back_repeat>
                 <button
                   onClick={() => setItems(items + 12)}
-                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-emerald-300 text-black py-2 px-5 rounded-lg hover:bg-black hover:text-white"
+                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-blue-600 text-white py-2 px-5 rounded-lg hover:bg-black hover:text-white"
                 >
                   View More
                 </button>

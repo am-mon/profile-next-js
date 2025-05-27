@@ -4,7 +4,7 @@ import Section from "./section";
 export default function Education(params) {
   return (
     <>
-      <div className="bg-zinc-100">
+      <div className="bg-blue-50">
         <Section>
           <div className="flex justify-between text-center flex-col md:flex-row">
             <div className="md:w-[32%] w-full box-border p-10 md:mb-0 mb-3 shadow-lg shadow-grey-500/50 rounded bg-white">

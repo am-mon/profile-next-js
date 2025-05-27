@@ -7,8 +7,8 @@ export default function Transition_bar({ children, skill_rate }) {
     visible: {
       opacity: 1,
       width: skill_rate + "%",
-      background: "#71717A",
-      height: "10px",
+      background: "oklch(62.3% 0.214 259.815)",
+      height: "12px",
       borderRadius: "10px",
     },
     hidden: { opacity: 0, width: 0, height: "10px" },

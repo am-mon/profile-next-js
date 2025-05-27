@@ -21,9 +21,9 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="border-t-8 border-emerald-300 ">
+      <header className="border-t-8 border-blue-500 ">
         {home ? (
-          <div className={utilStyles.home_head}>
+          <div className={`utilStyles.home_head bg-blue-50`}>
             <Transition>
               <div className="py-20 px-4 text-center">
                 <Transition_image>

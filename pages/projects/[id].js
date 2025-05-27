@@ -48,7 +48,7 @@ export default function ProjectDetailPage() {
           </Head>
           <div className="bg-zinc-50 px-5 pt-10 sm:pt-0 md:pt-0">
             <a
-              className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-emerald-300 font-medium py-1 px-2 text-sm rounded"
+              className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-1 px-2 text-sm rounded"
               href="/"
             >
               <BsArrowLeft className="mr-2" /> Back to Profile
@@ -62,11 +62,11 @@ export default function ProjectDetailPage() {
                   <p className="text-xl md:text-2xl mt-2 mb-5">
                     - {project.description}
                   </p>
-                  <ul className="flex flex-wrap text-xs text-zinc-500 mt-3">
+                  <ul className="flex flex-wrap text-xs text-zinc-700 mt-3">
                     {project.programming_languages.map((list, index) => (
                       <li
                         key={index}
-                        className="mr-1 mb-1 bg-zinc-200 px-2 py-1 rounded"
+                        className="mr-1 mb-1 bg-blue-200 px-2 py-1 rounded"
                       >
                         {list}
                       </li>
@@ -98,7 +98,7 @@ export default function ProjectDetailPage() {
           </div>
 
           {project.images?.some((img) => img.src !== "") && (
-            <div className="bg-zinc-100">
+            <div className="bg-blue-50">
               <div className="container mx-auto py-10 px-5">
                 <ul>
                   {project.images?.map(
@@ -116,13 +116,13 @@ export default function ProjectDetailPage() {
                             }`}
                           >
                             <h3
-                              className={`text-2xl md:text-3xl lg:text-4xl font-bold ${
+                              className={`text-2xl md:text-3xl lg:text-4xl text-blue-600 font-bold ${
                                 index % 2 === 0 ? "ml-10" : "mr-10"
                               }`}
                             >
                               {item.desc}
                             </h3>
-                            <span className="text-3xl md:text-4xl lg:text-5xl text-gray-300 font-bold">
+                            <span className="text-3xl md:text-4xl lg:text-5xl text-zinc-600 font-bold">
                               {(index + 1).toString().padStart(2, "0")}
                             </span>
                           </div>
@@ -152,13 +152,23 @@ export default function ProjectDetailPage() {
       <Section>
         <div className="flex justify-between">
           {prevProject ? (
-            <Link href={`/projects/${prevProject.id}`}>← Previous</Link>
+            <Link
+              className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-2 text-sm rounded"
+              href={`/projects/${prevProject.id}`}
+            >
+              ← Previous
+            </Link>
           ) : (
-            <span className="opacity-50 px-4 py-2">← Previous</span>
+            <span className="opacity-50 px-4 py-2 ">← Previous</span>
           )}
 
           {nextProject ? (
-            <Link href={`/projects/${nextProject.id}`}>Next →</Link>
+            <Link
+              className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-5 text-sm rounded"
+              href={`/projects/${nextProject.id}`}
+            >
+              Next →
+            </Link>
           ) : (
             <span className="opacity-50 px-4 py-2">Next →</span>
           )}
