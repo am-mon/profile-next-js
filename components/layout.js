@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
                     <b>Web Developer | Frontend & CMS&nbsp;Specialist</b> <br />
                     <span className="mt-2 inline-block text-xl">
                       JavaScript, React, Next.js, Vue, Tailwind,{" "}
-                      <br className="sm:hidden" />
+                      <br className="hidden sm:inline-block" />
                       PHP, Python, SQL, WordPress, WooCommerce
                     </span>
                   </h2>
