@@ -40,9 +40,6 @@ export default function Layout({ children, home }) {
                   <h1 className={utilStyles.heading2Xl}>{name}</h1>
                 </Transition_rotate>
                 <Transition back_repeat>
-                  {/* <h2 className={utilStyles.headingLg}>
-                    Front-End Web Developer
-                  </h2> */}
                   <h2 className={utilStyles.headingLg}>
                     <b>Web Developer | Frontend & CMS&nbsp;Specialist</b> <br />
                     <span className="mt-2 inline-block text-xl">

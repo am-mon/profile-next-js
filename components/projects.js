@@ -62,7 +62,9 @@ export default function Projects(params) {
               </Transition_title>
             </div>
             <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end">
-              <label className="mb-2 md:mb-0 md:mr-2">Filter by: </label>
+              <label className="mb-2 md:mb-0 md:mr-2 text-lg font-medium">
+                Filter by:{" "}
+              </label>
               {/* <select
                 name="programming-list"
                 onChange={handleProgrammingChange}
@@ -80,7 +82,7 @@ export default function Projects(params) {
                 onChange={handleProgrammingChange}
                 options={filterOptions}
                 defaultValue={filterOptions[0]}
-                className=" min-w-[100%] md:min-w-[220px] outline-0 border-0"
+                className=" min-w-[100%] md:min-w-[220px] outline-0 border-0 text-lg font-medium"
                 theme={(theme) => ({
                   ...theme,
                   border: 1,
@@ -113,11 +115,11 @@ export default function Projects(params) {
                 <Transition key={item.id}>
                   <li className="flex justify-between w-full h-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white hover:bg-blue-50">
                     <div className="w-[50%] relative">
-                      <h4 className="text-lg font-semibold">{item.title}</h4>
-                      <p className="text-base text-base lg:text-sm text-zinc-600 mt-3">
+                      <h4 className="text-xl font-semibold">{item.title}</h4>
+                      <p className="text-base text-base lg:text-base text-zinc-600 mt-1">
                         {item.description}
                       </p>
-                      <ul className="flex flex-wrap text-sm text-zinc-700 mt-3">
+                      <ul className="flex flex-wrap text-sm text-zinc-700 mt-2">
                         {item.programming_languages.map((list, index) => (
                           <li
                             key={index}
@@ -174,7 +176,7 @@ export default function Projects(params) {
               <Transition_rotate delay_time={0.7} back_repeat>
                 <button
                   onClick={() => setItems(items + 12)}
-                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-blue-600 text-white py-2 px-5 rounded-lg hover:bg-black hover:text-white"
+                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-blue-600 text-white py-2 px-5 rounded-lg hover:bg-black hover:text-white text-base font-medium"
                 >
                   View More
                 </button>

@@ -18,7 +18,7 @@ export default function Skills(params) {
           <ul className="flex flex-wrap justify-between text-left mt-10 flex-col md:flex-row">
             {skills_data?.map((item) => (
               <li key={item.id} className="md:w-[48%] w-full mb-2">
-                <div className="flex justify-between mb-1 text-base font-medium">
+                <div className="flex justify-between mb-1 text-lg font-medium">
                   <span>{item.title}</span>
                   <span>{item.rate}%</span>
                 </div>
