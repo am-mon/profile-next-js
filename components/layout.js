@@ -37,7 +37,11 @@ export default function Layout({ children, home }) {
                   />
                 </Transition_image>
                 <Transition_rotate back_repeat>
-                  <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                  <h1
+                    className={`${utilStyles.heading2Xl} text-4xl lg:text-5xl font-bold`}
+                  >
+                    {name}
+                  </h1>
                 </Transition_rotate>
                 <Transition back_repeat>
                   <h2 className={utilStyles.headingLg}>
