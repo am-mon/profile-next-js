@@ -44,9 +44,12 @@ export default function Layout({ children, home }) {
                     Front-End Web Developer
                   </h2> */}
                   <h2 className={utilStyles.headingLg}>
-                    <b>Web Developer | Frontend & CMS Specialist</b> <br />
-                    JavaScript, React, Next.js, Vue, Tailwind, PHP, Python, SQL,
-                    WordPress
+                    <b>Web Developer | Frontend & CMS&nbsp;Specialist</b> <br />
+                    <span className="mt-2 inline-block text-xl">
+                      JavaScript, React, Next.js, Vue, Tailwind,{" "}
+                      <br className="sm:hidden" />
+                      PHP, Python, SQL, WordPress, WooCommerce
+                    </span>
                   </h2>
                   <Social_icons />{" "}
                 </Transition>
