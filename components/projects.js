@@ -114,10 +114,10 @@ export default function Projects(params) {
                   <li className="flex justify-between w-full h-full box-border p-6 shadow-lg shadow-grey-500/50 rounded bg-white hover:bg-blue-50">
                     <div className="w-[50%] relative">
                       <h4 className="text-lg font-semibold">{item.title}</h4>
-                      <p className="text-sm text-zinc-600 mt-3">
+                      <p className="text-base text-base lg:text-sm text-zinc-600 mt-3">
                         {item.description}
                       </p>
-                      <ul className="flex flex-wrap text-xs text-zinc-700 mt-3">
+                      <ul className="flex flex-wrap text-sm text-zinc-700 mt-3">
                         {item.programming_languages.map((list, index) => (
                           <li
                             key={index}
@@ -128,7 +128,7 @@ export default function Projects(params) {
                         ))}
                       </ul>
                       <a
-                        className="block mt-3 text-sm 2xl:absolute bottom-0 left-0 static"
+                        className="block mt-3 text-base lg:text-sm 2xl:absolute bottom-0 left-0 static"
                         // href={item.url}
                         href={`./projects/${item.id}`}
                         // target="_blank"

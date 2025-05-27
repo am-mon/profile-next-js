@@ -62,8 +62,8 @@ export default function Work_experience(params) {
                           {item.title}
                         </h3>
                         <p className="my-2">{item.degree}</p>
-                        <p className="text-sm text-zinc-500">{item.duration}</p>
-                        <div className="text-sm mt-3">
+                        <p className="text-zinc-500">{item.duration}</p>
+                        <div className="text-base lg:text-sm mt-3">
                           <a href={item.url} target="_blank">
                             <Button>View More</Button>
                           </a>
@@ -89,8 +89,8 @@ export default function Work_experience(params) {
                           {item.title}
                         </h3>
                         <p className="my-2">{item.position}</p>
-                        <p className="text-sm text-zinc-500">{item.duration}</p>
-                        <div className="text-sm mt-3">
+                        <p className=" text-zinc-500">{item.duration}</p>
+                        <div className="text-base lg:text-sm mt-3">
                           <span
                             className="cursor-pointer"
                             onClick={() => {

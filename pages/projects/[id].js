@@ -48,7 +48,7 @@ export default function ProjectDetailPage() {
           </Head>
           <div className="bg-zinc-50 px-5 pt-10 sm:pt-0 md:pt-0">
             <a
-              className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-1 px-2 text-sm rounded"
+              className="flex items-center w-fit static sm:fixed md:fixed top-10 float-right sm:float-none md:float-none bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-1 px-2 text-base lg:text-sm rounded"
               href="/"
             >
               <BsArrowLeft className="mr-2" /> Back to Profile
@@ -62,7 +62,7 @@ export default function ProjectDetailPage() {
                   <p className="text-xl md:text-2xl mt-2 mb-5">
                     - {project.description}
                   </p>
-                  <ul className="flex flex-wrap text-xs text-zinc-700 mt-3">
+                  <ul className="flex flex-wrap text-sm text-zinc-700 mt-3">
                     {project.programming_languages.map((list, index) => (
                       <li
                         key={index}
@@ -153,7 +153,7 @@ export default function ProjectDetailPage() {
         <div className="flex justify-between">
           {prevProject ? (
             <Link
-              className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-2 text-sm rounded"
+              className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-2 text-base lg:text-sm rounded"
               href={`/projects/${prevProject.id}`}
             >
               ← Previous
@@ -164,7 +164,7 @@ export default function ProjectDetailPage() {
 
           {nextProject ? (
             <Link
-              className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-5 text-sm rounded"
+              className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-5 text-base lg:text-sm rounded"
               href={`/projects/${nextProject.id}`}
             >
               Next →
