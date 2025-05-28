@@ -7,7 +7,7 @@ export default function TopNav() {
 
   return (
     <div className="bg-blue-600 text-white py-4 px-3 w-full fixed z-10">
-      <div className="container mx-auto box-border px-5 flex justify-between items-center">
+      <div className="container mx-auto box-border px-5 flex justify-center md:justify-between items-center">
         <Link
           href="/"
           className="text-xl font-bold hidden md:block text-white hover:text-white"
