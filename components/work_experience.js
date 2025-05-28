@@ -64,7 +64,9 @@ export default function Work_experience(params) {
                         <p className="my-2 font-medium md:font-normal">
                           {item.title}
                         </p>
-                        <p className="text-zinc-500">{item.duration}</p>
+                        <p className="text-zinc-500 font-medium">
+                          {item.duration}
+                        </p>
                         <div className="text-base lg:text-sm mt-3">
                           <a href={item.url} target="_blank">
                             <Button>View More</Button>
@@ -93,7 +95,9 @@ export default function Work_experience(params) {
                         <p className="my-2 font-medium md:font-normal">
                           {item.title}
                         </p>
-                        <p className=" text-zinc-500">{item.duration}</p>
+                        <p className=" text-zinc-500 font-medium">
+                          {item.duration}
+                        </p>
                         <div className="text-base lg:text-sm mt-3">
                           <span
                             className="cursor-pointer"
