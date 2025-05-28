@@ -7,7 +7,7 @@ export default function TopNav() {
 
   return (
     <nav className="bg-blue-600 text-white py-4 px-3 w-full fixed z-10">
-      <ul className="flex justify-center items-center space-x-8 md:space-x-16 text-sm md:text-base font-medium">
+      <ul className="flex justify-center items-center space-x-8 md:space-x-20 text-sm md:text-base font-medium">
         <li>
           <Link
             href="/"

@@ -151,7 +151,7 @@ export default function ProjectDetailPage() {
           <div className="flex justify-between">
             {prevProject ? (
               <Link
-                className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-2 text-base lg:text-sm rounded"
+                className="bg-blue-600 text-white hover:bg-blue-800 hover:text-white font-medium py-2 px-2 text-base lg:text-sm rounded"
                 href={`/projects/${prevProject.id}`}
               >
                 ← Previous
@@ -162,7 +162,7 @@ export default function ProjectDetailPage() {
 
             {nextProject ? (
               <Link
-                className="bg-blue-600 text-white hover:bg-black hover:text-white font-medium py-2 px-5 text-base lg:text-sm rounded"
+                className="bg-blue-600 text-white hover:bg-blue-800 hover:text-white font-medium py-2 px-5 text-base lg:text-sm rounded"
                 href={`/projects/${nextProject.id}`}
               >
                 Next →

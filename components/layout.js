@@ -51,7 +51,7 @@ export default function Layout({ children }) {
       <header>
         <Nav />
       </header>
-      <main className="pt-11">
+      <main className="pt-12 md:pt-14">
         {children}
         <ScrollToTop />
       </main>

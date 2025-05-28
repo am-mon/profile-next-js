@@ -58,7 +58,10 @@ export default function Projects(params) {
           <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between">
             <div className="w-[100%] md:w-[50%]">
               <Transition_title>
-                <h2 className={utilStyles.headingXl}>Projects</h2>
+                <h2 className={utilStyles.headingXl}>
+                  {selectedProgramming === "All" ? "" : selectedProgramming}
+                  &nbsp;Projects
+                </h2>
               </Transition_title>
             </div>
             <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end">
@@ -89,10 +92,10 @@ export default function Projects(params) {
                   borderRadius: 4,
                   colors: {
                     ...theme.colors,
-                    text: "#000000",
-                    primary25: "oklch(88.2% 0.059 254.128)",
-                    primary: "oklch(88.2% 0.059 254.128)",
-                    neutral0: "#ffffff", // Background color of the select box
+                    text: "#333333", // default option text
+                    primary25: "oklch(88.2% 0.059 254.128)", // hover option bg
+                    primary: "oklch(88.2% 0.059 254.128)", // selected option bg
+                    neutral0: "#ffffff", // default bg of select box
                   },
                 })}
                 styles={{
@@ -101,7 +104,7 @@ export default function Projects(params) {
                     borderWidth: 2, // 2px border width
                     borderColor: "oklch(88.2% 0.059 254.128)",
                     "&:hover": {
-                      borderColor: "oklch(54.6% 0.245 262.881)",
+                      borderColor: "oklch(80.9% 0.105 251.813)",
                     },
                   }),
                 }}
@@ -176,7 +179,7 @@ export default function Projects(params) {
               <Transition_rotate delay_time={0.7} back_repeat>
                 <button
                   onClick={() => setItems(items + 12)}
-                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-blue-600 text-white py-2 px-5 rounded-lg hover:bg-black hover:text-white text-base font-medium"
+                  className="block decoration-0 hover:decoration-0 mt-5 mx-auto bg-blue-600 text-white py-2 px-5 rounded-lg hover:bg-blue-800 hover:text-white text-base font-medium"
                 >
                   View More
                 </button>
