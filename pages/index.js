@@ -4,8 +4,8 @@ import Work_experience from "../components/work_experience";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
 import Get_in_touch from "../components/get_in_touch";
-import Script from "next/script";
-import Footer from "../components/footer";
+
+import Home_top from "../components/home_top";
 
 export default function Home() {
   // const posts = data.posts;
@@ -13,28 +13,16 @@ export default function Home() {
 
   return (
     <>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-QKZ7FCCQ1R"
-      />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-QKZ7FCCQ1R');
-        `}
-      </Script>
-      <Layout home>
+      <Layout>
         <Head>
           <title>{siteTitle}</title>
         </Head>
+        <Home_top />
         <Work_experience />
         <Skills />
         <Projects />
         <Get_in_touch />
-        <Footer />
+
         {/* <Link href="posts/first-post">Post Page</Link> */}
       </Layout>
     </>
