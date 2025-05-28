@@ -78,7 +78,7 @@ ul.timeline > li::before {
   width: 14px;
   height: 14px;
   display: block;
-  background: #333333;
+  background: rgb(219, 234, 254);
   /* border-radius: 50%; */
   position: absolute;
   transform: rotate(45deg);
@@ -94,7 +94,7 @@ ul.timeline > li::after {
   position: absolute;
   top: 5px;
   left: 6px;
-  background: #333333;
+  background: rgb(219, 234, 254);
 }
 
 ul.timeline li:nth-of-type(n + 2) {

@@ -5,6 +5,7 @@ import Skills from "../components/skills";
 import Projects from "../components/projects";
 import Get_in_touch from "../components/get_in_touch";
 import Script from "next/script";
+import Footer from "../components/footer";
 
 export default function Home() {
   // const posts = data.posts;
@@ -33,6 +34,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Get_in_touch />
+        <Footer />
         {/* <Link href="posts/first-post">Post Page</Link> */}
       </Layout>
     </>
