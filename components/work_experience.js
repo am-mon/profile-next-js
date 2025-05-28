@@ -59,9 +59,11 @@ export default function Work_experience(params) {
                     .map((item) => (
                       <li key={item.id}>
                         <h3 className={`font-semibold ${utilStyles.headingMd}`}>
-                          {item.title}
+                          {item.degree}
                         </h3>
-                        <p className="my-2">{item.degree}</p>
+                        <p className="my-2 font-medium md:font-normal">
+                          {item.title}
+                        </p>
                         <p className="text-zinc-500">{item.duration}</p>
                         <div className="text-base lg:text-sm mt-3">
                           <a href={item.url} target="_blank">
@@ -86,9 +88,11 @@ export default function Work_experience(params) {
                     .map((item) => (
                       <li key={item.id}>
                         <h3 className={`font-semibold ${utilStyles.headingMd}`}>
-                          {item.title}
+                          {item.position}
                         </h3>
-                        <p className="my-2">{item.position}</p>
+                        <p className="my-2 font-medium md:font-normal">
+                          {item.title}
+                        </p>
                         <p className=" text-zinc-500">{item.duration}</p>
                         <div className="text-base lg:text-sm mt-3">
                           <span
