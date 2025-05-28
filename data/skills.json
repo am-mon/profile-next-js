@@ -2,12 +2,12 @@
   "skills": [
     {
       "id": 1,
-      "title": "PHP, Python, Database, SQL",
+      "title": "PHP, Python, Databases, SQL",
       "rate": "75"
     },
     {
       "id": 2,
-      "title": "React, Next, Vue, Tailwind",
+      "title": "React, Next.js, Vue.js, Tailwind CSS",
       "rate": "75"
     },
     {
@@ -17,33 +17,27 @@
     },
     {
       "id": 4,
-      "title": "Javascript",
+      "title": "Javascript, jQuery",
       "rate": "95"
     },
     {
       "id": 5,
-      "title": "Git, GitHub",
-      "rate": "70"
-    },
-
-    {
-      "id": 6,
-      "title": "jQuery",
-      "rate": "90"
-    },
-    {
-      "id": 7,
-      "title": "WordPress/Elementor/CMS/EDM layouts",
+      "title": "WordPress, Custom Themes, ACF, Email Layouts",
       "rate": "95"
     },
     {
-      "id": 8,
+      "id": 6,
       "title": "WooCommerce",
       "rate": "85"
     },
     {
-      "id": 9,
-      "title": "Figma/Phototshop/Illustrator",
+      "id": 7,
+      "title": "Git, GitHub",
+      "rate": "70"
+    },
+    {
+      "id": 8,
+      "title": "Figma, Photoshop, Illustrator",
       "rate": "70"
     }
   ]
