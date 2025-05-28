@@ -6,13 +6,13 @@ export default function TopNav() {
   const isActive = (pathname) => router.pathname === pathname;
 
   return (
-    <nav className="bg-blue-600 text-white p-3 w-full fixed z-10">
-      <ul className="flex justify-center items-center space-x-8 md:space-x-20 text-sm font-medium">
+    <nav className="bg-blue-600 text-white py-4 px-3 w-full fixed z-10">
+      <ul className="flex justify-center items-center space-x-8 md:space-x-16 text-sm md:text-base font-medium">
         <li>
           <Link
             href="/"
-            className={`text-white hover:text-blue-100 hover:border-b-2 hover:border-blue-100 ${
-              isActive("/") ? "border-b-2 border-blue-200" : ""
+            className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+              isActive("/") ? "border-b-2 border-white" : "border-transparent"
             }`}
           >
             Home
@@ -21,8 +21,10 @@ export default function TopNav() {
         <li>
           <Link
             href="/about"
-            className={`text-white hover:text-blue-100 hover:border-b-2 hover:border-blue-100 ${
-              isActive("/about") ? "border-b-2 border-blue-200" : ""
+            className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+              isActive("/about")
+                ? "border-b-2 border-white"
+                : "border-transparent"
             }`}
           >
             About Me
@@ -31,8 +33,10 @@ export default function TopNav() {
         <li>
           <Link
             href="/projects"
-            className={`text-white hover:text-blue-100 hover:border-b-2 hover:border-blue-100 ${
-              isActive("/projects") ? "border-b-2 border-blue-200" : ""
+            className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+              isActive("/projects")
+                ? "border-b-2 border-white"
+                : "border-transparent"
             }`}
           >
             Projects
@@ -41,8 +45,10 @@ export default function TopNav() {
         <li>
           <Link
             href="/contact"
-            className={`text-white hover:text-blue-100 hover:border-b-2 hover:border-blue-100 ${
-              isActive("/contact") ? "border-b-2 border-blue-200" : ""
+            className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+              isActive("/contact")
+                ? "border-b-2 border-white"
+                : "border-transparent"
             }`}
           >
             Contact
