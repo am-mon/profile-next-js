@@ -22,9 +22,11 @@ export default function About_me() {
             I’ve worked with companies in Singapore and Japan, delivering
             bespoke websites, e-commerce platforms, and CMS solutions tailored
             to specific business needs. My&nbsp;core strengths include custom
-            theme development, plugin integration, responsive layouts, website
-            optimisation, and SEO best practices to improve search&nbsp;engine
-            rankings and site performance.
+            theme development, ACF development, plugin integration, responsive
+            layouts, website optimisation, SEO best practices to improve
+            search&nbsp;engine rankings and site performance, as well as
+            creating responsive email templates compatible with multiple
+            devices.
           </p>
           <p className="mb-4">
             Alongside my CMS and backend expertise, I also have hands-on
@@ -36,30 +38,25 @@ export default function About_me() {
             the UK and am available to start immediately.
           </p> */}
           <ul>
-            <li className="flex items-start space-x-2 text-base md:text-lg mb-2">
-              <div style={{ width: 25 }}>
-                <TiTick className="text-blue-600" size={25} />
-              </div>
-              <span className="text-base md:text-lg">
-                Right to work in the UK
-              </span>
-            </li>
-            <li className="flex items-start space-x-2 text-base md:text-lg mb-2">
-              <div style={{ width: 25 }}>
-                <TiTick className="text-blue-600" size={25} />
-              </div>
-              <span className="text-base md:text-lg">
-                Strong background in WordPress and PHP
-              </span>
-            </li>
-            <li className="flex items-start space-x-2 text-base md:text-lg mb-2">
-              <div style={{ width: 25 }}>
-                <TiTick className="text-blue-600" size={25} />
-              </div>
-              <span className="text-base md:text-lg">
-                Experienced in both frontend and CMS development
-              </span>
-            </li>
+            {[
+              "Right to work in the UK",
+              "WordPress & WooCommerce",
+              "PHP & ACF development",
+              "Custom theme & plugin development",
+              "Responsive design & email templates",
+              "SEO optimisation",
+              "React, Next.js, Vue.js & Tailwind CSS",
+            ].map((item, idx) => (
+              <li
+                key={idx}
+                className="flex items-start space-x-2 text-base md:text-lg mb-2"
+              >
+                <div style={{ width: 25 }}>
+                  <TiTick className="text-blue-600" size={25} />
+                </div>
+                <span className="text-base md:text-lg">{item}</span>
+              </li>
+            ))}
           </ul>
         </div>
       </Section>
