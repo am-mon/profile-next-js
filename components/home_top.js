@@ -27,16 +27,18 @@ export default function Home_top(params) {
           <div className="w-full md:w-[60%] text-center md:text-left">
             <Transition_title back_repeat>
               <h1
-                className={`${utilStyles.heading2Xl} text-4xl md:text-5xl xl:text-7xl font-bold mt-7`}
+                className={`${utilStyles.heading2Xl} text-4xl md:text-5xl xl:text-7xl font-bold mt-2 md:mt-5`}
               >
                 {name}
               </h1>
             </Transition_title>
             <Transition_title back_repeat>
               <h2
-                className={`${utilStyles.headingLg} text-xl md:text-3xl xl:text-4xl`}
+                className={`${utilStyles.headingLg} text-2xl md:text-3xl xl:text-4xl`}
               >
-                <b>Web Developer | Frontend & CMS&nbsp;Specialist</b>
+                <b className="text-blue-600">
+                  Web Developer | Frontend & CMS&nbsp;Specialist
+                </b>
                 <br />
                 <span className="mt-4 inline-block text-xl xl:text-2xl">
                   JavaScript, React, Next.js, Vue, Tailwind CSS,{" "}
