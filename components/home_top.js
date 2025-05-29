@@ -11,13 +11,13 @@ export default function Home_top(params) {
   return (
     <div className={`${utilStyles.home_head} bg-blue-50`}>
       <Section>
-        <div className="flex justify-between items-center flex-col md:flex-row-reverse">
+        <div className="py-10 flex justify-between items-center flex-col md:flex-row-reverse">
           <div className="w-full md:w-[40%]">
             <Transition_image>
               <Image
                 priority
                 src="/assets/images/mon_3.png"
-                className="rounded-r-full mx-auto w-[70%] md:w-[90%] xl:w-[70%] border-zinc-100 border-2 hover:border-4"
+                className="rounded-r-full mx-auto w-[70%] md:w-[90%] xl:w-[75%] border-zinc-100 border-2 hover:border-4"
                 height={700}
                 width={700}
                 alt=""
