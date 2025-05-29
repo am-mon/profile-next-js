@@ -59,8 +59,8 @@ export default function Projects(params) {
             <div className="w-[100%] md:w-[50%]">
               <Transition_title>
                 <h2 className={utilStyles.headingXl}>
-                  {selectedProgramming === "All" ? "" : selectedProgramming}
-                  &nbsp;Projects
+                  {selectedProgramming === "All" ? "" : selectedProgramming}{" "}
+                  Projects
                 </h2>
               </Transition_title>
             </div>
@@ -79,12 +79,14 @@ export default function Projects(params) {
                 <option value="WordPress">WordPress</option>
                 <option value="Woocommerce">Woocommerce</option>
               </select> */}
+
               <Select
                 instanceId="select_programming"
                 name="programming-list"
                 onChange={handleProgrammingChange}
                 options={filterOptions}
                 defaultValue={filterOptions[0]}
+                isSearchable={false}
                 className=" min-w-[100%] md:min-w-[220px] outline-0 border-0 text-lg font-medium"
                 theme={(theme) => ({
                   ...theme,
