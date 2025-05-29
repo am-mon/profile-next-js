@@ -1,0 +1,48 @@
+import Image from "next/image";
+import utilStyles from "../styles/utils.module.css";
+import Social_icons from "./social_icons";
+import Transition from "./transition";
+import Transition_image from "./transition_image";
+import Transition_rotate from "./transition_rotate";
+
+const name = "Aye Myat Mon";
+
+export default function Home_top(params) {
+  return (
+    <div className={`utilStyles.home_head bg-blue-50`}>
+      <Transition>
+        <div className="py-20 px-4 text-center">
+          <Transition_image>
+            <Image
+              priority
+              src="/assets/images/mon_3.png"
+              className="rounded-full mx-auto w-[180px] border-zinc-100 border-2 hover:border-4"
+              height={700}
+              width={700}
+              alt=""
+            />
+          </Transition_image>
+          <Transition_rotate back_repeat>
+            <h1
+              className={`${utilStyles.heading2Xl} text-4xl lg:text-5xl font-bold mt-7`}
+            >
+              {name}
+            </h1>
+          </Transition_rotate>
+          <Transition back_repeat>
+            <h2 className={utilStyles.headingLg}>
+              <b>Web Developer | Frontend & CMS Specialist</b>
+              <br />
+              <span className="mt-2 inline-block text-xl">
+                JavaScript, React, Next.js, Vue, Tailwind,{" "}
+                <br className="hidden sm:inline-block" />
+                PHP, Python, SQL, WordPress, WooCommerce
+              </span>
+            </h2>
+            <Social_icons />{" "}
+          </Transition>
+        </div>
+      </Transition>
+    </div>
+  );
+}

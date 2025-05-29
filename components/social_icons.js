@@ -2,9 +2,13 @@ import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
 
-export default function Social_icons(params) {
+export default function Social_icons({ align = "center" }) {
   return (
-    <ul className="text-4xl flex flex-row space-x-7 justify-center text-center mt-7">
+    <ul
+      className={`text-4xl flex flex-row space-x-7 mt-7 ${
+        align === "left" ? "justify-center md:justify-start" : "justify-center"
+      } text-center`}
+    >
       <li>
         <a href="https://www.linkedin.com/in/ayemyatmon/" target="_blank">
           <FaLinkedin className="hover:text-blue-700" />
