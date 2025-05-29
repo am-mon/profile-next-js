@@ -11,7 +11,7 @@ export default function Home_top(params) {
   return (
     <div className={`${utilStyles.home_head} bg-blue-50`}>
       <Section>
-        <div className="py-10 flex justify-between items-center flex-col md:flex-row-reverse">
+        <div className="py-0 md:py-10 flex justify-between items-center flex-col md:flex-row-reverse">
           <div className="w-full md:w-[40%]">
             <Transition_image>
               <Image
