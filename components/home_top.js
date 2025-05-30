@@ -17,7 +17,7 @@ export default function Home_top(params) {
               <Image
                 priority
                 src="/assets/images/mon_3.png"
-                className="rounded-r-full mx-auto w-[70%] md:w-[90%] xl:w-[75%] border-zinc-100 border-2 hover:border-4"
+                className="rounded-full mx-auto w-[60%] md:w-[90%] xl:w-[90%] border-zinc-100 border-2 hover:border-4"
                 height={700}
                 width={700}
                 alt=""
