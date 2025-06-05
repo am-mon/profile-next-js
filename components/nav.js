@@ -15,7 +15,7 @@ export default function TopNav() {
           Mon's Portfolio
         </Link>
         <nav>
-          <ul className="flex justify-center items-center space-x-8 md:space-x-16 text-sm md:text-base font-medium">
+          <ul className="flex justify-center items-center space-x-4 md:space-x-16 text-sm md:text-base font-medium">
             <li>
               <Link
                 href="/"
