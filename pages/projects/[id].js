@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import utilStyles from "../../styles/utils.module.css";
 import Button from "../../components/button";
-import { BsArrowLeft } from "react-icons/bs";
+// import { BsArrowLeft } from "react-icons/bs";
 // import Transition from "../../components/transition";
 import Head from "next/head";
 
@@ -48,50 +48,48 @@ export default function ProjectDetailPage() {
                 {id ? `Project ${id} - ${project.title}` : "Loading..."}
               </title>
             </Head>
-            <div className="bg-zinc-50 px-5 pt-10 sm:pt-0 md:pt-0">
-              <div className="bg-zinc-50 container mx-auto flex flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-between">
-                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 py-10">
-                  <div>
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                      {project.title}
-                    </h1>
-                    <p className="text-xl md:text-2xl mt-2 mb-5">
-                      - {project.description}
-                    </p>
-                    <ul className="flex flex-wrap text-sm text-zinc-700 mt-3">
-                      {project.programming_languages.map((list, index) => (
-                        <li
-                          key={index}
-                          className="mr-1 mb-1 bg-blue-200 px-2 py-1 rounded"
-                        >
-                          {list}
-                        </li>
-                      ))}
-                    </ul>
-                    <a
-                      className="block w-fit my-5"
-                      href={project.url}
-                      target="_blank"
+            <div className="bg-blue-50 bg-gradient-to-tr from-indigo-200 via-zinc-50 to-blue-200 px-5 py-14">
+              <div className="text-center">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+                  {project.title}
+                </h1>
+                <p className="text-xl md:text-2xl mt-2 mb-5">
+                  - {project.description}
+                </p>
+                <ul className="flex flex-wrap text-sm text-zinc-700 mt-3 justify-center">
+                  {project.programming_languages.map((list, index) => (
+                    <li
+                      key={index}
+                      className="mr-1 mb-1 bg-blue-200 px-2 py-1 rounded"
                     >
-                      <Button>URL: {project.url}</Button>
-                    </a>
-                  </div>
-                  <div></div>
-                </div>
-                <div
-                  className={`${utilStyles.project_top_img} w-auto sm:w-1/2 md:w-1/2 lg:w-1/2`}
+                      {list}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  className="block w-fit my-5 mx-auto"
+                  href={project.url}
+                  target="_blank"
                 >
+                  <Button>Go To Website</Button>
+                </a>
+              </div>
+            </div>
+
+            {project.images?.some((img) => img.src == "") && (
+              <div className="bg-blue-50">
+                <div className="container mx-auto py-20 px-5">
                   <Image
                     src={`/assets/images/${project.img}`}
                     width={1000}
                     height={1000}
                     // layout="responsive"
-                    className={utilStyles.project_featured_img}
+                    className={`${utilStyles.project_featured_img} mx-auto`}
                     alt=""
                   />
                 </div>
               </div>
-            </div>
+            )}
 
             {project.images?.some((img) => img.src !== "") && (
               <div className="bg-blue-50">

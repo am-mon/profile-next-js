@@ -10,7 +10,7 @@ const name = "Aye Myat Mon";
 export default function Home_top(params) {
   return (
     <div
-      className={`${utilStyles.home_head} bg-blue-50 bg-gradient-to-tr from-indigo-100 via-zinc-50 to-blue-100`}
+      className={`${utilStyles.home_head} bg-blue-50 bg-gradient-to-tr from-indigo-200 via-zinc-50 to-blue-200`}
     >
       <Section>
         <div className="py-0 md:py-10 flex justify-between items-center flex-col md:flex-row-reverse">

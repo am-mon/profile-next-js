@@ -615,9 +615,14 @@
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" }
+        { "src": "nirvana-01.jpg", "desc": "Home" },
+        { "src": "nirvana-01-chinese.jpg", "desc": "Home - Chinese Version" },
+        { "src": "nirvana-02.jpg", "desc": "About Nirvana" },
+        { "src": "nirvana-03.jpg", "desc": "Funeral Services" },
+        { "src": "nirvana-04.jpg", "desc": "Offers" },
+        { "src": "nirvana-05.jpg", "desc": "Prayer Events" },
+        { "src": "nirvana-06.jpg", "desc": "Legacy Suites" },
+        { "src": "nirvana-07.jpg", "desc": "Branches and Contact" }
       ]
     },
     {

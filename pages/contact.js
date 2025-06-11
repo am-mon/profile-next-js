@@ -12,7 +12,7 @@ export default function About() {
       <Head>
         <title>Contact | Portfolio</title>
       </Head>
-      <div className="bg-blue-50">
+      <div className="bg-blue-50 bg-gradient-to-tr from-indigo-200 via-zinc-50 to-blue-200">
         <Section>
           <Transition_title>
             <h1 className={utilStyles.headingXl}>

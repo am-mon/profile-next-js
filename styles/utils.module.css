@@ -163,9 +163,9 @@ button.has_hover_effect:hover svg {
   content: "";
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: rgb(37 99 235);
   z-index: 1;
   position: absolute;
   top: 0;
-  opacity: 0.3;
+  opacity: 0.5;
 }
