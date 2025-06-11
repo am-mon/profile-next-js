@@ -21,6 +21,7 @@ export default function Work_experience(params) {
   const customStyles = {
     overlay: {
       background: "rgba(0,0,0,0.5)",
+      zIndex: 1000,
     },
     content: {
       top: "50%",

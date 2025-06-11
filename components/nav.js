@@ -6,7 +6,7 @@ export default function TopNav() {
   const isActive = (pathname) => router.pathname === pathname;
 
   return (
-    <div className="bg-blue-600 text-white py-4 px-3 w-full fixed z-10">
+    <div className="bg-blue-600 text-white py-4 px-3 w-full fixed z-40">
       <div className="container mx-auto box-border px-5 flex justify-center md:justify-between items-center">
         <Link
           href="/"
@@ -15,7 +15,7 @@ export default function TopNav() {
           Mon's Portfolio
         </Link>
         <nav>
-          <ul className="flex justify-center items-center space-x-4 md:space-x-16 text-sm md:text-base font-medium">
+          <ul className="flex justify-center items-center space-x-6 md:space-x-16 text-sm md:text-base font-medium">
             <li>
               <Link
                 href="/"
