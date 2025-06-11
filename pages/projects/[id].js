@@ -118,7 +118,7 @@ export default function ProjectDetailPage() {
                               >
                                 {item.desc}
                               </h3>
-                              <span className="text-3xl md:text-4xl lg:text-5xl text-zinc-600 font-bold">
+                              <span className="text-3xl md:text-4xl lg:text-5xl text-zinc-400 font-bold">
                                 {(index + 1).toString().padStart(2, "0")}
                               </span>
                             </div>
