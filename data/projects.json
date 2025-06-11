@@ -719,6 +719,34 @@
         { "src": "ichi-05.jpg", "desc": "Cart" },
         { "src": "ichi-06.jpg", "desc": "Checkout" }
       ]
+    },
+    {
+      "id": 32,
+      "title": "Avita",
+      "description": "Health & Wellness Website",
+      "url": "https://myavita.com/home/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_28.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "avita-01.jpg", "desc": "Home" },
+        { "src": "avita-01-chinese.jpg", "desc": "Home - Chinese Version" },
+        { "src": "avita-02.jpg", "desc": "About Avita" },
+        { "src": "avita-03.jpg", "desc": "Avita Leaders" },
+        { "src": "avita-04.jpg", "desc": "Shop" },
+        { "src": "avita-05.jpg", "desc": "Partners" },
+        { "src": "avita-06.jpg", "desc": "Contact" },
+        { "src": "avita-07.jpg", "desc": "Market Opportunities" }
+      ]
     }
   ]
 }
