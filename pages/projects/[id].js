@@ -48,7 +48,7 @@ export default function ProjectDetailPage() {
                 {id ? `Project ${id} - ${project.title}` : "Loading..."}
               </title>
             </Head>
-            <div className="bg-blue-50 bg-gradient-to-tr from-indigo-200 via-zinc-50 to-blue-200 px-5 py-14">
+            <div className="bg-blue-50 bg-gradient-to-tr from-indigo-200 via-zinc-50 to-blue-200 px-5 py-20">
               <div className="text-center">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                   {project.title}
@@ -67,7 +67,7 @@ export default function ProjectDetailPage() {
                   ))}
                 </ul>
                 <a
-                  className="block w-fit my-5 mx-auto"
+                  className="block w-fit mt-5 mx-auto"
                   href={project.url}
                   target="_blank"
                 >
