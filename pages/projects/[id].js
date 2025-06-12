@@ -35,8 +35,8 @@ export default function ProjectDetailPage() {
     );
   }
 
-  const prevProject = projectsData.projects[currentProjectIndex - 1] || null;
-  const nextProject = projectsData.projects[currentProjectIndex + 1] || null;
+  const prevProject = projectsData.projects[currentProjectIndex + 1] || null;
+  const nextProject = projectsData.projects[currentProjectIndex - 1] || null;
 
   return (
     <Layout>

@@ -196,7 +196,7 @@
     {
       "id": 10,
       "title": "WSI Works",
-      "description": "E-commerce website",
+      "description": "Plumbing services",
       "url": "https://wsiworks.sg/",
       "programming_languages": [
         "PHP",
@@ -219,7 +219,7 @@
     {
       "id": 11,
       "title": "MIMS",
-      "description": "Healthcare corporate website",
+      "description": "Healthcare",
       "url": "https://corporate.mims.com/",
       "programming_languages": [
         "PHP",
@@ -262,52 +262,9 @@
         { "src": "visualsense-04.jpg", "desc": "Contact" }
       ]
     },
+
     {
       "id": 13,
-      "title": "Little but Mighty English",
-      "description": "Primary & Secondary English in Singapore",
-      "url": "https://lilbutmightyenglish.com/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress"
-      ],
-      "img": "p_14.jpg",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "EDOOVO International",
-      "description": "An innovative edu-tech company in Singapore",
-      "url": "https://www.edoovo.com/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress"
-      ],
-      "img": "p_17.jpg",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" }
-      ]
-    },
-    {
-      "id": 15,
       "title": "Celergen",
       "description": "Swiss Marine Supplement",
       "url": "https://celergen.shop/",
@@ -330,7 +287,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 14,
       "title": "Coatconut",
       "description": "A local car detailing business in Singapore",
       "url": "https://coatconut.com.sg/",
@@ -352,11 +309,12 @@
         { "src": "", "desc": "" }
       ]
     },
+
     {
-      "id": 17,
-      "title": "Beacon International College",
-      "description": "A private education institution in Singapore",
-      "url": "https://beacon.edu.sg/",
+      "id": 15,
+      "title": "Merz Aesthetics Serendipity Journey",
+      "description": "Beauty and Aesthetic",
+      "url": "https://myserendipityjourney.com/",
       "programming_languages": [
         "PHP",
         "Javascript",
@@ -365,7 +323,7 @@
         "CSS",
         "WordPress"
       ],
-      "img": "p_16.jpg",
+      "img": "p_1.jpg",
       "about_project": "",
       "video": "",
       "images": [
@@ -374,6 +332,54 @@
         { "src": "", "desc": "" }
       ]
     },
+    {
+      "id": 16,
+      "title": "Moonlight Joaillerie",
+      "description": "Jewellery E-commerce website",
+      "url": "https://moonlightjoaillerie.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_18.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "moonlight-01.jpg", "desc": "Home" },
+        { "src": "moonlight-02.jpg", "desc": "Shop Story" },
+        { "src": "moonlight-03.jpg", "desc": "Process" },
+        { "src": "moonlight-04.jpg", "desc": "Milestone/Occasions" },
+        { "src": "moonlight-05.jpg", "desc": "Appointment" }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Golden Horse",
+      "description": "A quant investment fund",
+      "url": "https://ghfundmanagement.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_23.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "golden-horse-01.jpg", "desc": "Home" },
+        { "src": "golden-horse-02.jpg", "desc": "About" },
+        { "src": "golden-horse-03.jpg", "desc": "FAQ" }
+      ]
+    },
+
     {
       "id": 18,
       "title": "Drum Tutor",
@@ -399,9 +405,35 @@
     },
     {
       "id": 19,
-      "title": "Merz Aesthetics Serendipity Journey",
-      "description": "Beauty and Aesthetic",
-      "url": "https://myserendipityjourney.com/",
+      "title": "Little BIG Volunteer",
+      "description": "Mindful Virtues",
+      "url": "https://www.iamalittlebigvolunteer.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_22.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "iamalittlebigvolunteer-01.jpg", "desc": "Home" },
+        { "src": "iamalittlebigvolunteer-02.jpg", "desc": "Shop" },
+        { "src": "iamalittlebigvolunteer-03.jpg", "desc": "Contact" },
+        { "src": "iamalittlebigvolunteer-04.jpg", "desc": "Product Details" },
+        { "src": "iamalittlebigvolunteer-05.jpg", "desc": "Cart" },
+        { "src": "iamalittlebigvolunteer-06.jpg", "desc": "Checkout" }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "EDOOVO International",
+      "description": "An innovative edu-tech company in Singapore",
+      "url": "https://www.edoovo.com/",
       "programming_languages": [
         "PHP",
         "Javascript",
@@ -410,7 +442,7 @@
         "CSS",
         "WordPress"
       ],
-      "img": "p_1.jpg",
+      "img": "p_17.jpg",
       "about_project": "",
       "video": "",
       "images": [
@@ -420,88 +452,10 @@
       ]
     },
     {
-      "id": 20,
-      "title": "Simply Whisky",
-      "description": "E-commerce website",
-      "url": "https://www.simplywhisky.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_3.jpg",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "simplywhisky-01.jpg", "desc": "Home" },
-        { "src": "simplywhisky-02.jpg", "desc": "About" },
-        { "src": "simplywhisky-03.jpg", "desc": "Shop" },
-        { "src": "simplywhisky-04.jpg", "desc": "Payment & Delivery" },
-        { "src": "simplywhisky-05.jpg", "desc": "Contact" },
-        { "src": "simplywhisky-06.jpg", "desc": "Product Details" }
-      ]
-    },
-    {
       "id": 21,
-      "title": "HAO mart",
-      "description": "Supermarkets in Singapore",
-      "url": "https://haomart.com.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_2.jpg",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "haomart-01.jpg", "desc": "Home" },
-        { "src": "haomart-02.jpg", "desc": "Store Locator" },
-        {
-          "src": "haomart-03.jpg",
-          "desc": "Store Locator after selected East and HAO Mart"
-        },
-        { "src": "haomart-04.jpg", "desc": "Contact & FAQ" }
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Moonlight Joaillerie",
-      "description": "Jewellery E-commerce website",
-      "url": "https://moonlightjoaillerie.com/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_18.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "moonlight-01.jpg", "desc": "Home" },
-        { "src": "moonlight-02.jpg", "desc": "Shop Story" },
-        { "src": "moonlight-03.jpg", "desc": "Process" },
-        { "src": "moonlight-04.jpg", "desc": "Milestone/Occasions" },
-        { "src": "moonlight-05.jpg", "desc": "Appointment" }
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Golden Horse",
-      "description": "A quant investment fund",
-      "url": "https://ghfundmanagement.com/",
+      "title": "Little but Mighty English",
+      "description": "Primary & Secondary English in Singapore",
+      "url": "https://lilbutmightyenglish.com/",
       "programming_languages": [
         "PHP",
         "Javascript",
@@ -510,17 +464,111 @@
         "CSS",
         "WordPress"
       ],
-      "img": "p_23.png",
+      "img": "p_14.jpg",
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "golden-horse-01.jpg", "desc": "Home" },
-        { "src": "golden-horse-02.jpg", "desc": "About" },
-        { "src": "golden-horse-03.jpg", "desc": "FAQ" }
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Beacon International College",
+      "description": "A private education institution in Singapore",
+      "url": "https://beacon.edu.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_16.jpg",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Alpha Fitness",
+      "description": "Fitness solutions",
+      "url": "https://alphafitness.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_5.jpg",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" }
       ]
     },
     {
       "id": 24,
+      "title": "Soon Li",
+      "description": "Glass Contractor Singapore",
+      "url": "https://www.soonliservices.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_21.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "soonli-01.jpg", "desc": "Home" },
+        { "src": "soonli-02.jpg", "desc": "About" },
+        { "src": "soonli-03.jpg", "desc": "Services" },
+        { "src": "soonli-04.jpg", "desc": "Portfolio" },
+        { "src": "soonli-05.jpg", "desc": "Contact" }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Design Bureau",
+      "description": "Commercial Interior Designers",
+      "url": "https://designbureau.sg",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_24.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "designbureau-00.jpg", "desc": "Home" },
+        { "src": "designbureau-01.jpg", "desc": "Services" },
+        { "src": "designbureau-02.jpg", "desc": "Portfolio" },
+        { "src": "designbureau-03.jpg", "desc": "News & Insights" },
+        { "src": "designbureau-04.jpg", "desc": "Contact" }
+      ]
+    },
+    {
+      "id": 26,
       "title": "Ottoson Japan",
       "description": "Japanese Food Market",
       "url": "https://ottoson.sg/",
@@ -548,58 +596,134 @@
       ]
     },
     {
-      "id": 25,
-      "title": "Soon Li",
-      "description": "Glass Contractor Singapore",
-      "url": "https://www.soonliservices.com.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_21.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "soonli-01.jpg", "desc": "Home" },
-        { "src": "soonli-02.jpg", "desc": "About" },
-        { "src": "soonli-03.jpg", "desc": "Services" },
-        { "src": "soonli-04.jpg", "desc": "Portfolio" },
-        { "src": "soonli-05.jpg", "desc": "Contact" }
-      ]
-    },
-    {
-      "id": 26,
-      "title": "Little BIG Volunteer",
-      "description": "Mindful Virtues",
-      "url": "https://www.iamalittlebigvolunteer.com/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_22.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "iamalittlebigvolunteer-01.jpg", "desc": "Home" },
-        { "src": "iamalittlebigvolunteer-02.jpg", "desc": "Shop" },
-        { "src": "iamalittlebigvolunteer-03.jpg", "desc": "Contact" },
-        { "src": "iamalittlebigvolunteer-04.jpg", "desc": "Product Details" },
-        { "src": "iamalittlebigvolunteer-05.jpg", "desc": "Cart" },
-        { "src": "iamalittlebigvolunteer-06.jpg", "desc": "Checkout" }
-      ]
-    },
-    {
       "id": 27,
+      "title": "Ichi",
+      "description": "Japanese Food Market",
+      "url": "https://ichi.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_27.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "ichi-01.jpg", "desc": "Home" },
+        { "src": "ichi-02.jpg", "desc": "About Ichi" },
+        { "src": "ichi-03.jpg", "desc": "Product Listing" },
+        { "src": "ichi-04.jpg", "desc": "Product Detail" },
+        { "src": "ichi-05.jpg", "desc": "Cart" },
+        { "src": "ichi-06.jpg", "desc": "Checkout" }
+      ]
+    },
+
+    {
+      "id": 28,
+      "title": "Avita",
+      "description": "Health & Wellness",
+      "url": "https://myavita.com/home/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_28.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "avita-01.jpg", "desc": "Home" },
+        { "src": "avita-01-chinese.jpg", "desc": "Home - Chinese Version" },
+        { "src": "avita-02.jpg", "desc": "About Avita" },
+        { "src": "avita-03.jpg", "desc": "Avita Leaders" },
+        { "src": "avita-04.jpg", "desc": "Shop" },
+        { "src": "avita-05.jpg", "desc": "Partners" },
+        { "src": "avita-06.jpg", "desc": "Contact" },
+        { "src": "avita-07.jpg", "desc": "Market Opportunities" }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "VicHaus",
+      "description": "VicHaus Serviced Apartment",
+      "url": "https://vichaus.com.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_29.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "vichaus-01.jpg", "desc": "Home" },
+        { "src": "vichaus-02.jpg", "desc": "Accommodation" },
+        { "src": "vichaus-03.jpg", "desc": "Lifestyle" },
+        { "src": "vichaus-04.jpg", "desc": "FAQ" },
+        { "src": "vichaus-05.jpg", "desc": "Contact" }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Simply Whisky",
+      "description": "E-commerce website",
+      "url": "https://www.simplywhisky.sg/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress",
+        "Woocommerce"
+      ],
+      "img": "p_3.jpg",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "simplywhisky-01.jpg", "desc": "Home" },
+        { "src": "simplywhisky-02.jpg", "desc": "About" },
+        { "src": "simplywhisky-03.jpg", "desc": "Shop" },
+        { "src": "simplywhisky-04.jpg", "desc": "Payment & Delivery" },
+        { "src": "simplywhisky-05.jpg", "desc": "Contact" },
+        { "src": "simplywhisky-06.jpg", "desc": "Product Details" }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Manila Ocean Park",
+      "description": "An oceanarium in Manila, Philippines",
+      "url": "https://manilaoceanpark.com/",
+      "programming_languages": [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ],
+      "img": "p_26.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "manilaocean-01.jpg", "desc": "Manila Ocean Park" },
+        { "src": "manilaocean-02.jpg", "desc": "Hotel H2O" },
+        { "src": "manilaocean-03.jpg", "desc": "Manila Ocean Park Attractions" }
+      ]
+    },
+    {
+      "id": 32,
       "title": "Nirvana Memorial Garden",
       "description": "Funeral home in Singapore",
       "url": "https://nirvana.com.sg/",
@@ -626,10 +750,10 @@
       ]
     },
     {
-      "id": 28,
-      "title": "Alpha Fitness",
-      "description": "Fitness solutions",
-      "url": "https://alphafitness.com.sg/",
+      "id": 33,
+      "title": "HAO mart",
+      "description": "Supermarkets in Singapore",
+      "url": "https://haomart.com.sg/",
       "programming_languages": [
         "PHP",
         "Javascript",
@@ -639,113 +763,17 @@
         "WordPress",
         "Woocommerce"
       ],
-      "img": "p_5.jpg",
+      "img": "p_2.jpg",
       "about_project": "",
       "video": "",
       "images": [
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" },
-        { "src": "", "desc": "" }
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Design Bureau",
-      "description": "Commercial Interior Designers",
-      "url": "https://designbureau.sg",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress"
-      ],
-      "img": "p_24.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "designbureau-00.jpg", "desc": "Home" },
-        { "src": "designbureau-01.jpg", "desc": "Services" },
-        { "src": "designbureau-02.jpg", "desc": "Portfolio" },
-        { "src": "designbureau-03.jpg", "desc": "News & Insights" },
-        { "src": "designbureau-04.jpg", "desc": "Contact" }
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Manila Ocean Park",
-      "description": "An oceanarium in Manila, Philippines",
-      "url": "https://manilaoceanpark.com/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress"
-      ],
-      "img": "p_26.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "manilaocean-01.jpg", "desc": "Manila Ocean Park" },
-        { "src": "manilaocean-02.jpg", "desc": "Hotel H2O" },
-        { "src": "manilaocean-03.jpg", "desc": "Manila Ocean Park Attractions" }
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Ichi",
-      "description": "Japanese Food Market",
-      "url": "https://ichi.com.sg/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_27.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "ichi-01.jpg", "desc": "Home" },
-        { "src": "ichi-02.jpg", "desc": "About Ichi" },
-        { "src": "ichi-03.jpg", "desc": "Product Listing" },
-        { "src": "ichi-04.jpg", "desc": "Product Detail" },
-        { "src": "ichi-05.jpg", "desc": "Cart" },
-        { "src": "ichi-06.jpg", "desc": "Checkout" }
-      ]
-    },
-    {
-      "id": 32,
-      "title": "Avita",
-      "description": "Health & Wellness Website",
-      "url": "https://myavita.com/home/",
-      "programming_languages": [
-        "PHP",
-        "Javascript",
-        "jQuery",
-        "HTML",
-        "CSS",
-        "WordPress",
-        "Woocommerce"
-      ],
-      "img": "p_28.png",
-      "about_project": "",
-      "video": "",
-      "images": [
-        { "src": "avita-01.jpg", "desc": "Home" },
-        { "src": "avita-01-chinese.jpg", "desc": "Home - Chinese Version" },
-        { "src": "avita-02.jpg", "desc": "About Avita" },
-        { "src": "avita-03.jpg", "desc": "Avita Leaders" },
-        { "src": "avita-04.jpg", "desc": "Shop" },
-        { "src": "avita-05.jpg", "desc": "Partners" },
-        { "src": "avita-06.jpg", "desc": "Contact" },
-        { "src": "avita-07.jpg", "desc": "Market Opportunities" }
+        { "src": "haomart-01.jpg", "desc": "Home" },
+        { "src": "haomart-02.jpg", "desc": "Store Locator" },
+        {
+          "src": "haomart-03.jpg",
+          "desc": "Store Locator after selected East and HAO Mart"
+        },
+        { "src": "haomart-04.jpg", "desc": "Contact & FAQ" }
       ]
     }
   ]
