@@ -54,7 +54,8 @@ export default function Home_top(params) {
                 <b>Frontend Developer | WordPress & WooCommerce Specialist</b>
                 <br />
                 <span className="mt-4 inline-block text-xl xl:text-2xl">
-                  Skilled in PHP, SQL, JavaScript,&nbsp;HTML&nbsp;&&nbsp;CSS.
+                  Skilled in PHP, SQL, <br className="inline-block sm:hidden" />
+                  JavaScript, jQuery, HTML & CSS.
                   <br />
                   Actively expanding skills in React, Next.js, Vue, TypeScript,
                   Tailwind CSS and&nbsp;Python for modern frontend development.
