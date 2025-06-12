@@ -53,7 +53,7 @@ export default function Projects(params) {
 
   return (
     <>
-      <div className="bg-blue-100">
+      <div className="bg-blue-100 bg-gradient-to-br from-blue-100 via-indigo-100 to-blue-50">
         <Section>
           <div className="flex flex-col-reverse md:flex-row items-start md:items-center md:justify-between">
             <div className="w-[100%] md:w-[50%]">
@@ -115,17 +115,17 @@ export default function Projects(params) {
           </div>
 
           <Transition_title>
-            <h3 className="mb-10 text-lg font-medium ">
+            <h3 className="py-2 mb-10 text-lg font-medium border-l-4 border-blue-200 pl-5">
               {selectedProgramming === "React" &&
-                "Simple apps built with React.js as part of self-study."}
+                "- Simple apps built with React.js as part of self-study."}
               {selectedProgramming === "Vue" &&
-                "Simple apps built with Vue.js as part of self-study."}
+                "- Simple apps built with Vue.js as part of self-study."}
               {selectedProgramming === "PHP" &&
-                "Worked with PHP in commercial projects, mainly for custom WordPress development."}
+                "- Worked with PHP in commercial projects, mainly for custom WordPress development."}
               {selectedProgramming === "WordPress" &&
-                "Commercial experience building and maintaining custom WordPress sites."}
+                "- Commercial experience building and maintaining custom WordPress sites."}
               {selectedProgramming === "WooCommerce" &&
-                "Experience developing WooCommerce stores, including customisation and plugin setup."}
+                "- Experience developing WooCommerce stores, including customisation and plugin setup."}
             </h3>
           </Transition_title>
 
