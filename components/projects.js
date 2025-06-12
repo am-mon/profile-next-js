@@ -23,7 +23,7 @@ export default function Projects(params) {
     { value: "React", label: "React" },
     { value: "Vue", label: "Vue" },
     { value: "WordPress", label: "WordPress" },
-    { value: "Woocommerce", label: "Woocommerce" },
+    { value: "WooCommerce", label: "WooCommerce" },
   ];
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export default function Projects(params) {
     <>
       <div className="bg-blue-100">
         <Section>
-          <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between">
+          <div className="flex flex-col-reverse md:flex-row items-start md:items-center md:justify-between">
             <div className="w-[100%] md:w-[50%]">
               <Transition_title>
                 <h2 className={utilStyles.headingXl}>
@@ -64,7 +64,7 @@ export default function Projects(params) {
                 </h2>
               </Transition_title>
             </div>
-            <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end">
+            <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end mb-6 md:mb-0">
               <label className="mb-2 md:mb-0 md:mr-2 text-lg font-medium">
                 Filter by:{" "}
               </label>
@@ -113,6 +113,21 @@ export default function Projects(params) {
               />
             </div>
           </div>
+
+          <Transition_title>
+            <h3 className="mb-10 text-lg font-medium ">
+              {selectedProgramming === "React" &&
+                "Simple apps built with React.js as part of self-study."}
+              {selectedProgramming === "Vue" &&
+                "Simple apps built with Vue.js as part of self-study."}
+              {selectedProgramming === "PHP" &&
+                "Worked with PHP in commercial projects, mainly for custom WordPress development."}
+              {selectedProgramming === "WordPress" &&
+                "Commercial experience building and maintaining custom WordPress sites."}
+              {selectedProgramming === "WooCommerce" &&
+                "Experience developing WooCommerce stores, including customisation and plugin setup."}
+            </h3>
+          </Transition_title>
 
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-10 mt-7">
             {filteredList
