@@ -117,7 +117,7 @@ export default function Projects(params) {
           <Transition_title>
             <h3 className="mt-2 mb-10 text-lg font-medium border-l-4 border-blue-200 pl-5">
               {(!selectedProgramming || selectedProgramming === "All") &&
-                "- Commercial experience with WordPress and WooCommerce; currently self-studying React, Vue, and Next.js."}
+                "- Commercial experience with WordPress and WooCommerce, currently self-learning React, Vue, and Next.js to expand my frontend skillset."}
               {selectedProgramming === "React" &&
                 "- Simple apps built with React.js as part of self-study."}
               {selectedProgramming === "Vue" &&
