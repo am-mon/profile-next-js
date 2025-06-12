@@ -66,7 +66,7 @@ export default function Projects(params) {
               </Transition_title>
             </div>
             <div className="w-[100%] md:w-[50%] flex flex-col md:flex-row items-start md:items-center justify-end mb-6 md:mb-0">
-              <label className="mb-2 md:mb-0 md:mr-2 text-lg font-medium">
+              <label className="mb-2 md:mb-0 md:mr-2 text-lg font-bold text-blue-600">
                 Filter by:{" "}
               </label>
               {/* <select
