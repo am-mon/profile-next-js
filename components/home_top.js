@@ -49,17 +49,15 @@ export default function Home_top(params) {
             </Transition_title>
             <Transition_title back_repeat>
               <h2
-                className={`${utilStyles.headingLg} text-2xl md:text-3xl xl:text-4xl`}
+                className={`${utilStyles.headingLg} text-xl md:text-2xl xl:text-4xl`}
               >
-                <b className="">
-                  Web Developer | Frontend&nbsp;&&nbsp;WordPress
-                </b>
+                <b>Frontend Developer | WordPress & WooCommerce Specialist</b>
                 <br />
                 <span className="mt-4 inline-block text-xl xl:text-2xl">
-                  Skilled in PHP, SQL, JavaScript,&nbsp;HTML&nbsp;&&nbsp;CSS.{" "}
+                  Skilled in PHP, SQL, JavaScript,&nbsp;HTML&nbsp;&&nbsp;CSS.
                   <br />
                   Actively expanding skills in React, Next.js, Vue, TypeScript,
-                  Tailwind CSS & Python for modern frontend development.
+                  Tailwind CSS and&nbsp;Python for modern frontend development.
                 </span>
               </h2>
               <Social_icons align="left" />
