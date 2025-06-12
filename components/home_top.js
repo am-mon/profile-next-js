@@ -51,12 +51,15 @@ export default function Home_top(params) {
               <h2
                 className={`${utilStyles.headingLg} text-2xl md:text-3xl xl:text-4xl`}
               >
-                <b>Web Developer | Frontend & CMS&nbsp;Specialist</b>
+                <b className="">
+                  Web Developer | Frontend&nbsp;&&nbsp;WordPress
+                </b>
                 <br />
                 <span className="mt-4 inline-block text-xl xl:text-2xl">
-                  JavaScript, React, Next.js, Vue, Tailwind CSS,{" "}
-                  <br className="hidden sm:inline-block" />
-                  PHP, Python, SQL, WordPress, and WooCommerce
+                  Skilled in PHP, SQL, JavaScript,&nbsp;HTML&nbsp;&&nbsp;CSS.{" "}
+                  <br />
+                  Actively expanding skills in React, Next.js, Vue, TypeScript,
+                  Tailwind CSS & Python for modern frontend development.
                 </span>
               </h2>
               <Social_icons align="left" />
