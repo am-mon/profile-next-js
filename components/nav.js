@@ -1,27 +1,45 @@
+import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
+import Social_icons from "./social_icons";
 
 export default function TopNav() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   const router = useRouter();
   const isActive = (pathname) => router.pathname === pathname;
 
   return (
-    <div className="bg-blue-600 text-white py-4 px-3 w-full fixed z-40">
-      <div className="container mx-auto box-border px-5 flex justify-center md:justify-between items-center">
+    <div className="bg-blue-600 text-white py-4 w-full fixed z-40">
+      <div className="container mx-auto box-border px-5 flex justify-between items-center">
         <Link
           href="/"
-          className="text-xl font-bold hidden md:block text-white hover:text-white"
+          className="text-xl font-bold block md:inline-block text-white hover:text-white"
         >
           Mon's Portfolio
         </Link>
-        <nav>
-          <ul className="flex justify-center items-center space-x-6 md:space-x-16 text-sm md:text-base font-medium">
+        <button
+          onClick={toggleMenu}
+          className="text-3xl md:hidden"
+          aria-label="Toggle Menu"
+        >
+          {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+        </button>
+        <nav
+          className={`${
+            isOpen ? "block" : "hidden"
+          } flex flex-col justify-center items-center h-[calc(100vh-3.5rem)] pb-[5rem] md:pb-0 md:h-auto absolute top-14 left-0 w-full bg-blue-600 px-5 md:bg-transparent md:block md:static md:w-auto`}
+        >
+          <ul className="flex flex-col md:flex md:flex-row md:space-x-10 lg:space-x-20 md:space-y-0 md:items-center text-2xl md:text-base font-medium pt-10 md:pt-0 text-center md:text-left">
             <li>
               <Link
                 href="/"
-                className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/")
-                    ? "border-b-2 border-white"
+                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -31,9 +49,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/about"
-                className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/about")
-                    ? "border-b-2 border-white"
+                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -43,9 +61,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/projects"
-                className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/projects")
-                    ? "border-b-2 border-white"
+                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -55,9 +73,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/contact"
-                className={`text-white hover:text-white hover:border-b-2 hover:border-blue-300 py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/contact")
-                    ? "border-b-2 border-white"
+                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -65,6 +83,9 @@ export default function TopNav() {
               </Link>
             </li>
           </ul>
+          <div className="md:hidden ">
+            <Social_icons />
+          </div>
         </nav>
       </div>
     </div>
