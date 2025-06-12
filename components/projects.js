@@ -115,7 +115,7 @@ export default function Projects(params) {
           </div>
 
           <Transition_title>
-            <h3 className="py-2 mb-10 text-lg font-medium border-l-4 border-blue-200 pl-5">
+            <h3 className="mt-2 mb-10 text-lg font-medium border-l-4 border-blue-200 pl-5">
               {selectedProgramming === "React" &&
                 "- Simple apps built with React.js as part of self-study."}
               {selectedProgramming === "Vue" &&
