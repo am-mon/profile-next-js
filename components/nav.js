@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
+import { RiMenu3Line } from "react-icons/ri";
 import Social_icons from "./social_icons";
 
 export default function TopNav() {
@@ -26,7 +27,7 @@ export default function TopNav() {
           className="text-3xl md:hidden"
           aria-label="Toggle Menu"
         >
-          {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+          {isOpen ? <AiOutlineClose /> : <RiMenu3Line />}
         </button>
         <nav
           className={`${
@@ -83,7 +84,7 @@ export default function TopNav() {
               </Link>
             </li>
           </ul>
-          <div className="md:hidden ">
+          <div className="md:hidden mt-2 md:mt-0">
             <Social_icons />
           </div>
         </nav>
