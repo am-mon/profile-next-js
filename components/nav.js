@@ -17,7 +17,7 @@ export default function TopNav() {
       <div className="container mx-auto box-border px-5 flex justify-between items-center">
         <Link
           href="/"
-          className="text-xl font-bold block md:inline-block text-white hover:text-white"
+          className="text-xl font-bold block md:inline-block text-white hover:text-inherit"
         >
           Mon's Portfolio
         </Link>
@@ -37,9 +37,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/"
-                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-inherit md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/")
-                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
+                    ? "text-blue-300 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -49,9 +49,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/about"
-                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-inherit md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/about")
-                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
+                    ? "text-blue-300 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -61,9 +61,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/projects"
-                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-inherit md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/projects")
-                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
+                    ? "text-blue-300 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
@@ -73,9 +73,9 @@ export default function TopNav() {
             <li>
               <Link
                 href="/contact"
-                className={`block md:inline-block text-white hover:text-white md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
+                className={`block md:inline-block text-white hover:text-inherit md:hover:border-b-2 md:hover:border-blue-300 py-5 md:py-1 transition duration-400 ease-in-out ${
                   isActive("/contact")
-                    ? "text-blue-400 md:text-white md:border-b-2 border-white"
+                    ? "text-blue-300 md:text-white md:border-b-2 border-white"
                     : "border-transparent"
                 }`}
               >
