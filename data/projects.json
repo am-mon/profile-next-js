@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "id": 0,
+      "title": "Todo List App",
+      "description": "Mini React Todo List App",
+      "url": "https://react-todo-list-app.ayemyatmon.com/",
+      "programming_languages": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "GitHub",
+        "Vercel"
+      ],
+      "img": "p_31.png",
+      "about_project": "",
+      "video": "",
+      "images": [
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" },
+        { "src": "", "desc": "" }
+      ]
+    },
+    {
       "id": 1,
       "title": "Shopping App",
       "description": "Mini React App by API",
