@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 6,
+      "id": 1,
       "title": "Flashcard App",
       "description": "Flashcard Mini React App by Trivia API",
       "url": "https://flashcard-react.ayemyatmon.com/",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 2,
       "title": "Portfolio",
       "description": "My Portfolio App",
       "url": "https://myprofile.ayemyatmon.com/",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": 3,
       "title": "Todo List App",
       "description": "Mini React Todo List App",
       "url": "https://react-todo-list-app.ayemyatmon.com/",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 4,
       "title": "Shopping App",
       "description": "Mini React App by API",
       "url": "https://react-shop-app.ayemyatmon.com/",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 5,
       "title": "The Meal App",
       "description": "Mini React App by The Meal API",
       "url": "https://react-meal-app.ayemyatmon.com/",
@@ -107,7 +107,7 @@
     },
 
     {
-      "id": 4,
+      "id": 6,
       "title": " React Weather App",
       "description": "Mini Weather App by OpenWeather API",
       "url": "https://weather-app.ayemyatmon.com/",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 7,
       "title": "Movie App",
       "description": "Mini React App by The Movie Database (TMDB) API",
       "url": "https://new-movie-react.ayemyatmon.com/",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 8,
       "title": "Vue Weather App",
       "description": "Mini Weather App by OpenWeather API",
       "url": "https://vue-weather-app.ayemyatmon.com",
@@ -166,7 +166,7 @@
     },
 
     {
-      "id": 7,
+      "id": 9,
       "title": "YSNC",
       "description": "A specialist in event services and creative projects",
       "url": "https://ysnc.com.sg/",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 10,
       "title": "Imperium Wood",
       "description": "Customized furniture and engraving services",
       "url": "https://imperiumwood.com.sg/",
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 11,
       "title": "Dr. Kart",
       "description": "Healthcare Service",
       "url": "https://www.drkart.sg/",
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 12,
       "title": "WSI Works",
       "description": "Plumbing services",
       "url": "https://wsiworks.sg/",
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 13,
       "title": "MIMS",
       "description": "Healthcare",
       "url": "https://corporate.mims.com/",
@@ -286,7 +286,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Visual Sense",
       "description": "Audiovisual (AV) and IP PBX services",
       "url": "https://vis-sense.com/",
@@ -311,7 +311,7 @@
     },
 
     {
-      "id": 13,
+      "id": 15,
       "title": "Celergen",
       "description": "Swiss Marine Supplement",
       "url": "https://celergen.shop/",
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 16,
       "title": "Coatconut",
       "description": "A local car detailing business in Singapore",
       "url": "https://coatconut.com.sg/",
@@ -358,7 +358,7 @@
     },
 
     {
-      "id": 15,
+      "id": 17,
       "title": "Merz Aesthetics Serendipity Journey",
       "description": "Beauty and Aesthetic",
       "url": "https://myserendipityjourney.com/",
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 18,
       "title": "Moonlight Joaillerie",
       "description": "Jewellery E-commerce website",
       "url": "https://moonlightjoaillerie.com/",
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 19,
       "title": "Golden Horse",
       "description": "A quant investment fund",
       "url": "https://ghfundmanagement.com/",
@@ -428,7 +428,7 @@
     },
 
     {
-      "id": 18,
+      "id": 20,
       "title": "Drum Tutor",
       "description": "A drum school in Singapore",
       "url": "https://www.drumtutor.sg/",
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 21,
       "title": "Little BIG Volunteer",
       "description": "Mindful Virtues",
       "url": "https://www.iamalittlebigvolunteer.com/",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 22,
       "title": "EDOOVO International",
       "description": "An innovative edu-tech company in Singapore",
       "url": "https://www.edoovo.com/",
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 23,
       "title": "Little but Mighty English",
       "description": "Primary & Secondary English in Singapore",
       "url": "https://lilbutmightyenglish.com/",
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 24,
       "title": "Beacon International College",
       "description": "A private education institution in Singapore",
       "url": "https://beacon.edu.sg/",
@@ -562,7 +562,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 25,
       "title": "Alpha Fitness",
       "description": "Fitness solutions",
       "url": "https://alphafitness.com.sg/",
@@ -594,7 +594,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 26,
       "title": "Soon Li",
       "description": "Glass Contractor Singapore",
       "url": "https://www.soonliservices.com.sg/",
@@ -619,7 +619,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 27,
       "title": "Design Bureau",
       "description": "Commercial Interior Designers",
       "url": "https://designbureau.sg",
@@ -643,7 +643,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 28,
       "title": "Ottoson Japan",
       "description": "Japanese Food Market",
       "url": "https://ottoson.sg/",
@@ -671,7 +671,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 29,
       "title": "Ichi",
       "description": "Japanese Food Market",
       "url": "https://ichi.com.sg/",
@@ -698,7 +698,7 @@
     },
 
     {
-      "id": 28,
+      "id": 30,
       "title": "Avita",
       "description": "Health & Wellness",
       "url": "https://myavita.com/home/",
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 31,
       "title": "VicHaus",
       "description": "VicHaus Serviced Apartment",
       "url": "https://vichaus.com.sg/",
@@ -750,7 +750,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 32,
       "title": "Simply Whisky",
       "description": "Online Whisky Shop in Singapore",
       "url": "https://www.simplywhisky.sg/",
@@ -776,7 +776,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "title": "Manila Ocean Park",
       "description": "An oceanarium in Manila, Philippines",
       "url": "https://manilaoceanpark.com/",
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "title": "Nirvana Memorial Garden",
       "description": "Funeral home in Singapore",
       "url": "https://nirvana.com.sg/",
@@ -825,7 +825,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 35,
       "title": "HAO mart",
       "description": "Supermarkets in Singapore",
       "url": "https://haomart.com.sg/",
